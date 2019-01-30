@@ -1,0 +1,147 @@
+
+
+<div id="service-licai" class="service-panel gmodule g-box" data-cate="licai">
+	<textarea>
+		<div class="service-hd" id="service-licai-tab">
+			<h2 class="title"><a href="http://licai.360.cn" target="_blank"><img src="https://p0.ssl.qhimg.com/t013977bfb5b208cba8.jpg" alt="360金融"><span class="sub-title"></span></a></h2>
+			<ul class="direct-site">
+				<li><a href="http://licai.360.cn" target="_blank">网贷</a></li>
+				<li><a href="http://licai.360.cn/credit" target="_blank">信用卡中心</a></li>
+				<li><a href="http://licai.360.cn/bank" target="_blank">银行</a></li>
+				<li><a href="http://licai.360.cn/" target="_blank">P2P理财</a></li>
+				<li><a href="http://licai.360.cn/loan" target="_blank">信用贷款</a></li>
+				<li><a href="https://www.nicaifu.com/hj?from=dh_licai_tonglan" target="_blank">小活宝</a></li>
+				<li><a href="https://www.nicaifu.com/dq?from=dh_licai_tonglan" target="_blank">定期理财</a></li>
+			</ul>
+		</div>
+		<div class="service-bd gclearfix">
+			<div class="loading" style="display:none"><img src="https://p1.ssl.qhimg.com/t019436f9a61e4203fe.gif">正在为您努力加载...</div>
+			<div class="inner" id="service-licai-inner">
+				<div data-tab-cate="licai-tab1">
+					<div class="licai-left gclearfix">
+  <div class="cell-hd clearfix">
+    <div class="title"><a href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/chanpinqu">360贷款</a></div>
+    <div class="sub-title"><a href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/chanpinqu">1折借钱，最高可提现20万</a></div>
+  </div>
+  <div class="cell-bd">
+    <a class="brand" href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/chanpinqu">
+      <img src="https://p1.ssl.qhimg.com/t01842f412066e57717.jpg" width="200" height="80" alt="最高可借200000">
+    </a>
+    <div class="action">
+      <div class="btn-wrapper">
+        <a class="btn green-btn" href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/chanpinqu">免息借钱</a>
+      </div>
+      <div class="btn-desc"><a href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/chanpinqu">有手机就能借，3分钟到账</a></div>
+    </div>
+  </div>
+</div><div class="licai-middle">
+  <div class="cell-hd clearfix">
+    <div class="title"><a href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/banner">360福利大派送</a></div>
+  </div>
+  <div class="cell-bd">
+    <div class="goods-item">
+      <a class="goods-img" href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/banner">
+        <img src="https://cdn-daikuan.360jie.com.cn/pic/34f658640e5fac4b0292b272466fcb53.jpg" alt="">
+      </a>
+      <a class="goods-desc" href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/banner">
+        <div class="goods-title">1折借钱</div>
+        <div class="goods-price">最高提20万</div>
+      </a>
+    </div>
+    <div class="goods-item">
+      <a class="goods-img" href="https://mkt.360jie.com.cn/activity/ch/360daohangtonglan/banner">
+        <img src="https://cdn-daikuan.360jie.com.cn/pic/0d3fd797b36909d139b659dad9bd2034.jpg" alt="">
+      </a>
+      <a class="goods-desc" href="https://mkt.360jie.com.cn/activity/guide/qmmxpc?utm_source=360daohangtonglan&utm_medium=banner&utm_campaign=shouqimianxi_201709v2">
+        <div class="goods-title">借40000免息30天</div>
+        <div class="goods-price">另送666免息金</div>
+      </a>
+    </div>
+  </div>
+</div>				</div>
+				<div class="licai-right">
+	<div class="slide-switch">
+	    <div class="slide-content">
+	        <div class="slide-column-wrap" style="width: 675px">
+                <div class="licai-piclist">
+                    <a href="http://licai.360.cn" target="_blank">
+                        <img src="https://p0.ssl.qhimg.com/t010d9d0965021c969b.png" width="225px" height="120px">
+                    </a>
+                </div>
+                <div class="licai-piclist">
+                    <a href="http://licai.360.cn/bank" target="_blank">
+                        <img src="https://p0.ssl.qhimg.com/t01b4f494832a4e2183.png" width="225px" height="120px">
+                    </a>
+                </div>
+                <div class="licai-piclist">
+                    <a href="http://licai.360.cn/loan" target="_blank">
+                        <img src="https://p0.ssl.qhimg.com/t016a64a0ad08cdeb11.png" width="225px" height="120px">
+                    </a>
+                </div>
+	        </div>
+	    </div>
+	    <div class="slide-nav">
+	        <ul class="gclearfix">
+	            <li class="selected"><a href="#1">标签信息</a></li>
+	            <li class="selected"><a href="#2">标签信息</a></li>
+	            <li class="selected"><a href="#3">标签信息</a></li>
+	        </ul>
+	    </div>
+	    <a href="###" class="slide-column-pageup"><span>上一屏</span><i class="bg"></i></a>
+	    <a href="###" class="slide-column-pagedown"><span>下一屏</span><i class="bg"></i></a>
+	    <span class="ad"></span>
+	</div>
+	<div class="btn-wrapper">
+		<a class="btn gray-btn" href="http://licai.360.cn/credit" target="_blank">信用卡</a>
+		<a class="btn gray-btn" href="http://licai.360.cn/loan" target="_blank">贷款</a>
+		<a class="btn gray-btn" href="http://licai.360.cn/" target="_blank">P2P</a>
+	</div>
+</div>			</div>
+			<script type="text/template" id="licai-tab1-template">
+				<div class="licai-left gclearfix">
+					<div class="cell-hd clearfix">
+						<div class="title"><a href="{$navigations[0].activityUrl}">{$navigations[0].activityName}</a></div>
+						<div class="sub-title"><a href="{$navigations[1].activityUrl}">{$navigations[1].activityName}</a></div>
+					</div>
+					<div class="cell-bd">
+						<a class="brand" href="{$navigations[1].activityUrl}">
+							<img src="https://p1.ssl.qhimg.com/t01842f412066e57717.jpg" width="200" height="80" alt="最高可借200000">
+						</a>
+						<div class="action">
+							<div class="btn-wrapper">
+								<a class="btn green-btn" href="{$navigations[2].activityUrl}">{$navigations[2].activityName}</a>
+							</div>
+							<div class="btn-desc"><a href="{$navigations[3].activityUrl}">{$navigations[3].activityName}</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="licai-middle">
+					<div class="cell-hd clearfix">
+						<div class="title"><a href="{$navigations[4].activityUrl}">{$navigations[4].activityName}</a></div>
+					</div>
+					<div class="cell-bd">
+						<div class="goods-item">
+							<a class="goods-img" href="{$navigations[5].activityUrl}">
+							  <img src="{$navigations[5].activityPicture}" alt="">
+							</a>
+							<a class="goods-desc" href="{$navigations[5].activityUrl}">
+								<div class="goods-title">{$navigations[5].activityName}</div>
+								<div class="goods-price">{$navigations[5].activityContent}</div>
+							</a>
+						</div>
+						<div class="goods-item">
+							<a class="goods-img" href="{$navigations[6].activityUrl}">
+							  <img src="{$navigations[6].activityPicture}" alt="">
+							</a>
+							<a class="goods-desc" href="{$navigations[6].activityUrl}">
+								<div class="goods-title">{$navigations[6].activityName}</div>
+								<div class="goods-price">{$navigations[6].activityContent}</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</script>
+		</div>
+	</textarea>
+</div>       
+

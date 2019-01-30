@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+<div id="service-relax" class="service-panel gmodule g-box" data-cate="yuletoutiao">
+    <textarea>
+        <div>
+            <div class="service-hd" id="service-relax-tab">
+                <h2 class="title"><a href="http://yule.360.cn/"><img src="https://p1.ssl.qhimg.com/t01a1d8314220d6fee4.jpg" width="94px" title="娱乐头条"></a></h2><ul class="direct-site">
+                     <li><a href="http://yule.360.cn/list?tag=今日沸点&tonality=今日沸点">今日沸点</a></li>
+                     <li><a href="http://yule.360.cn/list?tag=娱乐没有圈&tonality=娱乐没有圈">娱乐没有圈</a></li>
+                    <li><a href="http://yule.360.cn/list?tag=XX挖掘机&tonality=XX挖掘机">XX挖掘机</a></li>
+                    <li><a href="http://yule.360.cn/list?tag=好奇心&tonality=轻松一刻">轻松一刻</a></li>
+                    <li><a href="http://yule.360.cn/list?tag=小视频">小视频</a></li>
+                    <li><a href="http://www.69xiu.com/extension/speadRoom?jxiusr=360_x2">主播</a></li>
+                </ul>
+            </div>
+            <div class="service-bd gclearfix">
+                <div class="loading" style="display:none"><img src="https://p1.ssl.qhimg.com/t019436f9a61e4203fe.gif">正在为您努力加载...</div>
+                <div data-tab-cate="yuletoutiao-tab1" class="inner" id="service-relax-inner"></div>
+                <script type="text/template" id="yuletoutiao-tab1-template">
+                    <div class="video-big relax-big" id="relax-v2">
+                        <div class="slide-switch pic-switch">
+                            <div class="slide-content">
+                                <div class="slide-column-wrap">
+                                    {for (var i=0 ;i< $toutiao_tu_1.length; i++)}
+                                        <div class="video-piclist">
+                                            <div class="g-pic">
+                                                <a href="{$toutiao_tu_1[i].pic_link}">
+                                                    <img src="{$toutiao_tu_1[i].pic}">
+                                                    <div class="pic-bg-cicle">
+                                                        <span class="icon icon-{if($toutiao_tu_1[i].mood)}{$toutiao_tu_1[i].mood}{else}ha{/if}"></span>
+                                                    </div>
+                                                    <div class="pic-bg">
+                                                        <span class="subtitle">{$toutiao_tu_1[i].title}</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    {/for}
+                                </div>
+                            </div>
+                            <div class="slide-nav">
+                                <ul class="gclearfix">
+                                    {for (var i=1 ;i<=$toutiao_tu_1.length; i++)}
+                                        <li class="selected"><a href="#{i}">标签信息</a></li>
+                                    {/for}
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="slide-column-pageup"><span>上一屏</span><i class="bg"></i></a>
+                            <a href="javascript:;" class="slide-column-pagedown"><span>下一屏</span><i class="bg"></i></a>
+                        </div>
+                    </div>
+                    <div class="relax-middle relax-standard">
+                        <div class="news-block first">
+                            <ul>
+                                {for (var i=0 ;i<$toutiao_wen_1.length; i++)}
+                                    <li style="{$toutiao_wen_1[i].style}" class="{if(i == 0)}first{/if}">
+                                        <ins class="dot">•</ins>
+                                        <a style="{$toutiao_wen_1[i].style}" href="{$toutiao_wen_1[i].link}">{$toutiao_wen_1[i].title}</a>
+                                    </li>
+                                {/for}
+                            </ul>
+                        </div>
+                        <div class="news-block">
+                             <ul>
+                                {for (var i=0 ;i<$toutiao_wen_2.length; i++)}
+                                    <li style="{$toutiao_wen_2[i].style}" class="{if(i == 0)}first{/if}">
+                                        <ins class="dot">•</ins>
+                                        <a style="{$toutiao_wen_2[i].style}" href="{$toutiao_wen_2[i].link}">{$toutiao_wen_2[i].title}</a>
+                                    </li>
+                                {/for}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="relax-middle relax-wide">
+                        <div class="news-block">
+                            <ul>
+                                {for (var i=0 ;i<$toutiao_wide_wen_1.length; i++)}
+                                    <li style="{$toutiao_wide_wen_1[i].style}" class="{if(i == 0)}first{/if}">
+                                        <ins class="dot">•</ins>
+                                        <a style="{$toutiao_wide_wen_1[i].style}" href="{$toutiao_wide_wen_1[i].link}">{$toutiao_wide_wen_1[i].title}</a>
+                                    </li>
+                                {/for}
+                            </ul>
+                        </div>
+                        <div class="news-block">
+                             <ul>
+                                {for (var i=0 ;i<$toutiao_wide_wen_2.length; i++)}
+                                    <li style="{$toutiao_wide_wen_2[i].style}" class="{if(i == 0)}first{/if}">
+                                        <ins class="dot">•</ins>
+                                        <a style="{$toutiao_wide_wen_2[i].style}" href="{$toutiao_wide_wen_2[i].link}">{$toutiao_wide_wen_2[i].title}</a>
+                                    </li>
+                                {/for}
+                            </ul>
+                        </div>
+                        <div class="news-block bottom">
+                            <ul>
+                                {for (var i=0 ;i<$toutiao_wide_wen_3.length; i++)}
+                                    <li style="{$toutiao_wide_wen_3[i].style}" class="{if(i == 0)}first{/if}">
+                                        <ins class="dot">•</ins>
+                                        <a style="{$toutiao_wide_wen_3[i].style}" href="{$toutiao_wide_wen_3[i].link}">{$toutiao_wide_wen_3[i].title}</a>
+                                    </li>
+                                {/for}
+                            </ul>
+                        </div>
+                        <div class="news-block bottom">
+                             <ul>
+                                {for (var i=0 ;i<$toutiao_wide_wen_4.length; i++)}
+                                    <li style="{$toutiao_wide_wen_4[i].style}" class="{if(i == 0)}first{/if}">
+                                        <ins class="dot">•</ins>
+                                        <a style="{$toutiao_wide_wen_4[i].style}" href="{$toutiao_wide_wen_4[i].link}">{$toutiao_wide_wen_4[i].title}</a>
+                                    </li>
+                                {/for}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="relax-hotlist" id="relax-hotlist">
+                        {for (var i=0 ;i<$toutiao_tu_2.length; i++)}
+                            <a href="{$toutiao_tu_2[i].pic_link}" class="{if((i+1)%2==0)}even{/if}">
+                                <div class="hot-item">
+                                    <div class="item-top">
+                                        <img src="{$toutiao_tu_2[i].pic}" alt="热门星闻1">
+                                        <span class="mask"></span>
+                                    </div>
+                                    <div class="item-bottom">
+                                        {$toutiao_tu_2[i].title}
+                                    </div>
+                                </div>
+                            </a>
+                        {/for}
+                    </div>
+                    <div class="video-bottom relax-bottom">
+                        <div class="slide-switch pic-switch">
+                        {js var page = ($toutiao_tu_3.length/4)}
+                        {js var count = 0}
+                            <span class="bottom-title">爆笑囧图</span>
+                            <div class="slide-content">
+                                <div class="slide-column-wrap">
+                                    {for (var i=1 ;i<=page; i++)}
+                                        <div class="video-piclist">
+                                            <ul>
+                                                {for (j=count ;j< (i*5); j++)}
+                                                {js count++}
+                                                    <li>
+                                                        <a href="{$toutiao_tu_3[j].pic_link}">
+                                                            <img src="{$toutiao_tu_3[j].pic}">
+                                                            <span class="mask"></span>
+                                                            <div class="pic-title">
+                                                                <span>{$toutiao_tu_3[j].title}</span>
+                                                                <div class="bg bg30"></div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                {/for}
+                                            </ul>
+                                        </div>
+                                    {/for}
+                                </div>
+                            </div>
+                            <div class="slide-nav">
+                                <ul class="gclearfix">
+                                    {for (var i=1 ;i<=page; i++)}
+                                        <li class="selected"><a href="#{i}">标签信息</a></li>
+                                    {/for}
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="slide-column-pageup"><span>上一屏</span><i class="bg"></i></a>
+                            <a href="javascript:;" class="slide-column-pagedown"><span>下一屏</span><i class="bg"></i></a>
+                        </div>
+                    </div>
+                    <div class="video-live relax-fansArea">
+                        <div class="slide-switch pic-switch">
+                            <span class="live-title">追星专区</span>
+                            <div class="slide-content">
+                                <div class="slide-column-wrap">
+                                    {for (var i=0 ;i<$toutiao_tu_4.length; i++)}
+                                        <div class="video-piclist">
+                                            <a href="{$toutiao_tu_4[i].pic_link}">
+                                                <img src="{$toutiao_tu_4[i].pic}" class="big-pic">
+                                                <span class="mask"></span>
+                                                <div class="pic-title">
+                                                    <span>{$toutiao_tu_4[i].title}</span>
+                                                    <div class="bg bg30"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    {/for}
+                                </div>
+                            </div>
+                            <div class="slide-nav">
+                                <ul class="gclearfix">
+                                    {for (var i=0 ;i<$toutiao_tu_4.length; i++)}
+                                        <li class="selected"><a href="#{i}">标签信息</a></li>
+                                    {/for}
+                                </ul>
+                            </div>
+                            <a href="###" class="slide-column-pageup">&lt;</a>
+                            <a href="###" class="slide-column-pagedown">&gt;</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </textarea>
+</div>
+

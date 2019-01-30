@@ -1,0 +1,92 @@
+/* 通用 */
+
+#f {background-image:url(img_f.gif); background-repeat: no-repeat;/**/ }
+#search_bar_in a:hover { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-679px 0; }
+#search_bar_in a#searchNavIs span { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-623px 0; }
+
+
+#su2 { background:#5B91E3 url(img_f.gif) -698px -92px no-repeat; }
+
+#new_top td.mode a { background:url(home.gif) -60px 50% no-repeat; }
+#new_top td.mode_is a { background:url(home.gif) 0 50% no-repeat; }
+#top_title_index { width:1000px; }
+/* 增强 */
+html { background:#F3F3F3; }
+
+
+#logo { width:200px; }
+#search_ { width:790px; }
+.forQQ1 { margin-bottom:30px; float:left; }
+.forQQ_1 { height:98px; max-height:98px; width:230px; float:right; }
+.forQQ2 { margin-left:auto !important; margin-right:0 !important; }
+.forQQ_2 { }
+.forQQ3 { }
+.forQQ_3 { }
+
+.right{ float:left; }
+.left{ float:right; min-width:200px; }
+
+#new_top { color:#9FBCDE; }
+#new_top a { color:#FFFFFF; }
+#new_top td { border-bottom-color:#4C7FBB; background-color:#5C97DE; }
+#new_top td.mode { border-right-color:#4C7FBB; }
+#new_top td.mode_is { border-left:1px #4C7FBB solid; border-right:1px #4C7FBB solid; }
+#new_top td.mode_is a { color:#4C7FBB; }
+#new_top td.mode a:hover div.mode_other { background-color:#F2F2F2; }
+#new_top td.mode a:hover div.mode_other div { color:#666666; }
+
+#new_top td.new_top_class { color:#A6BEDA; }
+#new_top td.new_top_class a { color:#FFFFFF; }
+
+#mylog { color:#9FBCDE; border-right-color:#A6BEDA; }
+#mylog a { color:#FFFFFF; }
+#mylog b { }
+#new_sc { color:#88AEDB; }
+#new_sc a { color:#99CCFF; }
+
+#weather a { color:#FFFFFF; }
+
+.w_kq_yzwr { color:#FFCC66; }
+.w_kq_zdwr { color:#FFCC66; }
+.w_kq_qdwr { color:#99CCFF; }
+.w_kq_you { color:#FFCC33; }
+.w_kq_liang { color:#FFCC99; }
+.w_qingkuang { color:#FFFFFF; }
+.w_wendu { }
+.w_wendu_ls { color:#FF6600; }
+.w_wendu_lx { color:#3300CC; }
+.w_xiangqing { margin-left:5px; color:#D8D8D8; }
+
+#date_time { border-left-color:#A6BEDA; }
+#date_time a { color:#FFFFFF; }
+.YMD { color:#FFFFFF; }
+.WEEK { }
+.WS { color:#FF6600; }
+.MOON { }
+.FES { color:#FF6600; }
+
+#top_title a { color:#788491; }
+#top_title a:hover { color:#5C97DE; }
+#top_title a#top_title_is, #top_title a#top_title_is2 { color:#5C97DE; background-color:#F2F2F2; border-top:1px #5C97DE solid; }
+
+#top_title a#top_title_is2 { background-color:#FFFFFF; }
+#top_title a.top_title_other { color:#336699; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

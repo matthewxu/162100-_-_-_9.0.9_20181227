@@ -1,0 +1,27 @@
+
+<div id="service-youxi" class="service-panel gmodule g-box" data-cate="youxi">
+    <textarea>
+        <div>
+            <div class="service-hd" id="service-youxi-tab">
+                <h2 class="title"><a href="http://g.360.cn/index.html"><img src="https://p1.ssl.qhimg.com/t012d1abfd91904673d.jpg" width="80" title="玩游戏"></a></h2>
+                <ul class="direct-site">
+
+                    <li><a href="http://xiaoyouxi.360.cn/?src=tab">小游戏</a></li>
+                    <li><a href="http://wan.360.cn?src=dhwyx">页游</a></li>
+                    <li><a href="http://g.360.cn/game/mmo?Src=wyx2">网游</a></li>
+                   <li><a href="http://tu.360.cn/WQf5?Src=wyx2">单机</a></li>
+                    <li><a href="http://g.360.cn/index.html#game-seeding">游戏直播</a></li>
+                    <li><a href="http://xiaoyouxi.360.cn/tag?tag=278">消灭星星</a></li>
+                    <li><a href="http://g.360.cn/zt/lianliankan.html?src=dhwyxwzl">连连看</a></li>
+                    <li><a href="http://xiaoyouxi.360.cn/tag?tag=130">斗地主</a></li>
+                </ul>
+            </div>
+            <div class="service-bd gclearfix service-type" data-type="70">
+                <div class="loading" style="display:none"><img src="https://p1.ssl.qhimg.com/t019436f9a61e4203fe.gif">正在为您努力加载...</div>
+                <div data-tab-cate="youxi" class="inner two-column" id="service-youxi-inner"></div>
+                <span class="ad"></span>
+            </div>
+        </div>
+    </textarea>
+</div>
+

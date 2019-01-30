@@ -1,0 +1,51 @@
+body { text-align:center; margin:0; }
+img { border:none; }
+#allBox { width:300px; height:255px; padding:10px; margin-left:auto; margin-right:auto; border:#CCCCCC 1px solid; overflow:hidden; background:#FFFFFF url(http://www.162100.com/162100screenshots/i_include/162100screenshots_bj.gif) 50% 50%; }
+#picBox {font-family:"Microsoft YaHei"; position:relative; width:300px; height:255px; -moz-user-select:none; overflow:hidden;  }
+#noscript, #runSub { position:absolute; left:0; top:0; z-index:99; width:300px; height:183px; overflow:hidden; color:#FF6600; font-size:18px; padding-top:72px; }
+#runSub { display:none; }
+
+/*关于图片样式*/
+#sourceimg { position:absolute; left:0; top:0; z-index:90; }
+#picSS { position:absolute; left:0; top:198px; z-index:92; width:300px; height:27px; line-height:27px; text-align:center; font-size:12px; display:none; background-color:#FFFF99; }
+#picViewOuter { position:relative; width:300px; height:225px; overflow:hidden;text-align:left; }
+#sliderOuter { width:292px; padding-left:8px; height:25px; margin-top:5px; background:url(../../readonly/images/162100screenshots_public.gif) 0 11px no-repeat; }
+#slider { position:relative; margin:auto; float:left; width:124px; height:25px; }
+#sliderBlock { width:24px; height:25px; position:absolute; top:0px; left:50px; cursor:pointer; font-size:10px; font-family:"Times New Roman"; text-align:center; background:url(../../readonly/images/162100screenshots_public.gif) 0px -9px no-repeat; overflow:hidden; }
+#run { width:150px; height:23px; margin-top:2px; float:right; overflow:hidden; }
+#run a { float:right; margin-left:5px; font-size:12px; font-family:"宋体"; font-weight:bold; width:70px; height:23px; line-height:23px; overflow:hidden; background:url(../../readonly/images/162100screenshots_public.gif) -24px -15px no-repeat; background-color:#DDDDDD; color:#FFFFFF; text-decoration:none; }
+#run a:hover { background-color:#FFFF00; }
+
+/*关于蒙板样式*/
+#picMask { position:absolute; left:0; top:0; z-index:91; width:100%; /*border-collapse:collapse;*/ empty-cells:show; }
+#picMask td { font-size:1px; line-height:1px; }
+#picMask td, #noscript, #runSub { background:#000000; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; opacity:0.5; }
+#picMask td#pP { width:110px; height:72px; }
+#picMask td#pO { width:96px; height:96px; max-width:200px; max-height:200px; border:1px blue solid; cursor:move; background:none; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1; }
+#picMask td#pO #pC { position:relative; width:100%; height:100%; }
+#picMask td#pO #pI { /*以下兼容狗屁IE8系列，不然不用pI*/ width:100%; height:100%; /*以下兼容狗屁IE8系列*/background:#FFFFFF; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); -moz-opacity:0; -khtml-opacity:0; opacity:0; }
+/*关于切刀样式*/
+.dm { position:absolute; width:5px; height:5px; font-size:1px; border:blue 1px solid; z-index:999; }
+.dm td { background:none; }
+#dm_tl { top:-5px; left:-5px; cursor:nw-resize; }
+#dm_tm { top:-5px; left:50%; margin-left:-3px; cursor:n-resize; }
+#dm_tr { top:-5px; right:-5px; cursor:ne-resize; }
+#dm_ml { top:50%; margin-top:-3px; left:-5px; cursor:w-resize;}
+#dm_mr { top:50%; margin-top:-3px; right:-5px; cursor:e-resize;}
+#dm_bl { bottom:-5px; left:-5px; cursor:sw-resize;}
+#dm_bm { bottom:-5px; left:50%; margin-left:-3px; cursor:s-resize;}
+#dm_br { bottom:-5px; right:-5px; cursor:se-resize;}
+
+
+/*以下为其他页面应用*/
+form { margin:0; padding:0; }
+#version { float:left; width:124px; height:25px; line-height:35px; overflow:hidden; font-family: Arial, Helvetica, sans-serif; font-size:10px; color:#696969; }
+#version a { color:#FF5500; text-decoration:none; }
+.sword { margin-bottom:6px; font-size:12px; color:#999999; margin-left:24px; }
+.sinput { height:20px; border:1px inset; }
+.err, .alert { width:24px; height:24px; margin-right:5px; vertical-align:middle; display:inline-block !important; display:inline; zoom:1; background:url(../../readonly/images/162100screenshots_public.gif) no-repeat; }
+.err { background-position: -121px -14px; }  
+.alert { background-position:-96px -14px; }
+
+
+.i_face_small { border:5px #EFEFEF solid; }

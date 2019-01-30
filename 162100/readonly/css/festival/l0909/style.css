@@ -1,0 +1,22 @@
+/* 通用 */
+
+#f {background-image:url(img_f.gif); background-repeat: no-repeat;/**/ }
+#search_bar_in a:hover { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-679px 0; }
+#search_bar_in a#searchNavIs span { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-623px 0; }
+
+
+#su2 { background:#FF9900 url(img_f.gif) -698px -92px no-repeat; }
+
+#new_top td.mode a { background:url(home.gif) -60px 50% no-repeat; }
+#new_top td.mode_is a { background:url(home.gif) 0 50% no-repeat; }
+#top_title_index { width:1000px; }
+/* 增强 */
+html { background:#F8F8F8 url(body.jpg) 50% 0 no-repeat; }
+#new_top td { background:none;; /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; opacity:0.5;*/ }
+#new_top td.mode { }
+#new_top td.mode_is { }
+#weather_datetime td { }
+.w_dt_line { }
+
+
+

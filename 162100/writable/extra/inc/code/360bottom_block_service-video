@@ -1,0 +1,22 @@
+
+<div id="service-video" class="service-panel gmodule g-box" data-cate="video">
+    <textarea>
+        <div class="service-hd" id="service-video-tab">
+          <h2 class="title"><a href="http://www.360kan.com/index.html"><img src="https://p1.ssl.qhimg.com/t0107deb65f1f5f3aea.jpg" width="80" title="看视频"></a></h2>
+            
+            <ul class="direct-site">
+                <li><a href="http://g.360.cn/dianjing">电竞直播</a></li>
+                <li><a href="http://www.panda.tv/?psrc=pc_web-360-daohang">熊猫TV</a></li>
+                <li><a href="http://www.360kan.com/zongyi/index.html">综艺</a></li>
+                <li><a href="http://www.360kan.com/dianying/index.html">电影</a></li>
+                <li><a href="http://www.360kan.com/dianshi/index.html">热播大剧</a></li>
+                <li><a href="http://www.360kan.com/yule/index.html">劲爆八卦</a></li>
+                <li><a href="http://video.so.com/app?autosetup=true">手机看大片</a></li>
+            </ul>
+        </div>
+        <div class="service-bd gclearfix">
+            <div class="loading" style="display:none"><img src="https://p1.ssl.qhimg.com/t019436f9a61e4203fe.gif">正在为您努力加载...</div>
+            <div data-tab-cate="video" class="inner two-column" id="service-video-inner"></div>
+        </div>
+    </textarea>
+</div>

@@ -1,0 +1,194 @@
+#activity,#entrance,#channel-sort,#top-channel,#user-channel {font-size:14px;}
+.w-lg .item-patch {display:block}
+.w-lg .inline-patch {display:inline}
+.w-lg .container {width:1170px}
+.w-lg .search-bg {width:1168px}
+.w-lg #doc-bd .f-l {width:260px}
+.w-lg #menupiano-panel {width:1168px}
+.w-lg #activity,.w-lg #entrance,.w-lg #channel-sort,.w-lg #top-channel,.w-lg #user-channel {width:258px}
+.w-lg #doc-bd .f-r {width:900px}
+.w-lg #hot-site,.w-lg #new-site,.w-lg #mbar,.w-lg #cool-site {width:898px}
+.w-lg #bangbang-l {width:260px}
+.w-lg #bangbang-r {width:900px}
+.w-lg #category-service,.w-lg #service .service-inner,.w-lg #localcity {width:1168px}
+.w-lg #famous-section .last,.w-lg .mysite-list {background-image:url(https://p0.ssl.qhimg.com/d/inn/7464e465/dotted.png)}
+#header-frame .item-patch {position:absolute;top:9px;right:0;width:170px;height:52px}
+#header-frame .item-patch img {width:100%}
+.w-lg #header-frame .item-patch {display:block}
+.w-lg #activity .cover img {width:258px}
+.w-lg #acti-mc .act-toppic {height:66px}
+.w-lg #activity .cover {width:258px}
+.w-lg #activity .cover .slide-content {width:100%;height:123px}
+.w-lg #acti-me .cover .slide-content {height:128px}
+.w-lg #activity .cover .slide-content .slide-item {width:100%}
+.w-lg #acti-mc .g-list li {width:242px;margin-left:15px}
+.w-lg #acti-mc .g-list li a.tag,.w-lg #acti-mc .g-list li .ins {display:inline}
+.w-lg #acti-mc .g-list li .ins {margin-left:2px;margin-right:2px}
+.w-lg #acti-mc .g-list li a {margin:0px}
+#acti-mc .cover a.slide-pageup,#acti-mc .cover a.slide-pagedown {overflow:hidden}
+.w-lg #iguess-container .iguess-hd {padding:0 16px}
+.w-lg #iguess-container .item .inner {_width:768px}
+.w-lg #iguess-container .item .subtitle {padding-left:12px}
+.w-lg #iguess-container .item .list li {width:102px}
+.w-lg #longlong {width:1125px}
+.w-lg #longlong .tab-item {width:77px;padding-left:47px}
+.w-lg #longlong.menupiano .default-bg,.w-lg #longlong.menupiano .hover-bg,.w-lg #longlong .hot-pic {width:124px}
+.w-lg #menupiano-setting a {width:25px;border-style:solid dotted solid dotted;border-left-color:#c9cbce}
+.w-lg #longlong .home {background-position:22px 8px}
+.w-lg #longlong .news {background-position:22px -29px}
+.w-lg #longlong .tv {background-position:22px -109px}
+.w-lg #longlong .movie {background-position:22px -66px}
+.w-lg #longlong .game {background-position:22px -269px}
+.w-lg #longlong .novel {background-position:22px -148px}
+.w-lg #longlong .travel {background-position:22px -313px}
+.w-lg #longlong .mall {background-position:22px -231px}
+.w-lg #longlong .tuan {background-position:22px -189px}
+.w-lg #longlong .health {background-position:22px -352px}
+.w-lg #longlong .yule {background-position:22px -354px}
+.w-lg .focus_news .sites .item {padding:0 21px 0 21px}
+.w-lg #acti-live {padding-left:49px}
+.w-lg #acti-live .act-slogan {left:6px}
+.w-lg #honghong .hot-section {padding-left:7px}
+.w-lg #honghong .hot-section .tip {margin-left:-3px}
+.w-lg .mysite-suggest {width:569px !important}
+.w-lg .mysite-suggest .sug-name {width:218px}
+.w-lg .mysite-suggest .sug-url {width:236px}
+.w-lg .mysite-list li {width:137px}
+.w-lg #mysite {width:1168px;margin-left:-585px}
+.w-lg #mysite .right {width:898px}
+.w-lg #mysite .left {width:268px}
+.w-lg #mysite .edit-mysite li {width:132px}
+.w-lg #mysite .mysite-add .site-name {width:240px}
+.w-lg #mysite .mysite-add .site-name input {width:228px}
+.w-lg #mysite .mysite-add .site-url {width:265px}
+.w-lg #mysite .mysite-add .site-url input {width:253px}
+.w-lg #plane {margin-left:589px}
+.w-lg #category-service .inner {width:110%}
+.w-lg #category-service .panel {width:373px}
+.w-lg #category-service .item-word .list li {width:59px}
+.w-lg #sort-toggle {left:194px}
+.w-lg #channel-sort .sort-panel {width:258px}
+.w-lg #channel-sort .sort-list a {margin:12px 8px 0 8px}
+.w-lg #user-channel.channel .cover a.slide-pageup,.w-lg #user-channel.channel .cover a.slide-pagedown,.w-lg #top-channel.channel .cover a.slide-pageup,.w-lg #top-channel.channel .cover a.slide-pagedown {width:20px;height:40px;top:25px}
+.w-lg .channel .section-hd {width:258px}
+.w-lg #user-channel .section {padding-bottom:8px}
+.w-lg #top-channel {padding-bottom:8px}
+.w-lg .channel-tab li a {width:64px}
+.w-lg .channel .cover .slide-content {width:228px;height:99px}
+.w-lg .channel-loading {width:258px}
+.w-lg #channel-mall .channel-loading {width:244px}
+.w-lg .channel-mod-A .section-bd,.w-lg .channel-mod-B .section-bd,.w-lg .channel-mod-C .section-bd,.w-lg .channel-mod-D .section-bd,.w-lg .channel-mod-E .section-bd,.w-lg .channel-indie-A .section-bd,.w-lg .channel-indie-B .section-bd,.w-lg .channel-indie-C .section-bd {width:249px}
+.w-lg .channel-mod-A .g-list .g-pic,.w-lg .channel-mod-A .g-list .g-pic a,.w-lg .channel-mod-A .g-pic .mask,.w-lg .channel-mod-B .g-list .g-pic,.w-lg .channel-mod-B .g-list .g-pic a,.w-lg .channel-mod-B .g-pic .mask,.w-lg .channel-mod-C .g-list .g-pic,.w-lg .channel-mod-C .g-list .g-pic a,.w-lg .channel-mod-C .g-pic .mask,.w-lg .channel-mod-E .g-list .g-pic,.w-lg .channel-mod-E .g-list .g-pic a,.w-lg .channel-mod-E .g-pic .mask,.w-lg .channel-indie-A .g-list .g-pic,.w-lg .channel-indie-A .g-list .g-pic a,.w-lg .channel-indie-A .g-pic .mask {width:228px;height:99px}
+.w-lg .channel-mod-D .g-list .g-pic {width:246px;background-position-x:13px}
+.w-lg .channel-mod-D .g-list li {width:114px}
+.w-lg .channel-mod-D .g-list .g-pic .item {margin-right:18px}
+.w-lg #user-channel .channel-indie-B {padding-bottom:0}
+.w-lg .channel-indie-B .g-list .g-pic img {width:100%}
+.w-lg .channel-indie-B .g-list .g-pic,.w-lg .channel-indie-B .section-bd .cover .slide-content {width:254px;height:116px;overflow:hidden}
+.w-lg .channel-indie-B .g-list .item,.w-lg .channel-indie-B .g-list .g-pic .item a,.w-lg .channel-indie-B .g-pic .mask {width:112px;height:112px}
+.w-lg .channel-indie-B .g-list li {width:234px}
+.w-lg .channel-indie-B .g-list li a {margin:0 6px}
+.w-lg .channel-indie-B a.slide-pagedown {right:8px}
+.w-lg .channel-indie-C .g-list .g-pic a,.w-lg .channel-indie-C .g-list li {width:228px}
+.w-lg .channel-indie-C .g-list .info {margin-left:12px}
+.w-lg .channel-indie-C .g-list .goto {text-align:center}
+.w-lg #user-channel #channel-car .ad {bottom:-8px}
+.w-lg #user-channel #channel-game .ad {bottom:-8px}
+/*.w-lg #search {padding:0 0 0 80px}*/
+.w-lg #daily-hotwords {right:90px}
+.w-lg .search-fixed #daily-hotwords {right:0}
+.w-lg #search-input {width:554px}
+.w-lg #search-input input {width:508px}
+.w-lg #search .search-hd {margin-left:230px}
+.w-lg #search-engine {margin-left:114px;                           display:none;}
+.w-lg .so-hotword-wrap {margin-left:225px}
+.w-lg .search-fixed .so-hotword-wrap {margin-left:8px}
+.w-lg #daily-hotwords {right:65px}
+.ie6 .w-lg #daily-hotwords {right:65px}
+.w-lg .search-fixed #daily-hotwords {right:-50px}
+.w-lg #so-hotword {width:642px}
+.w-lg #so-hotword ul {width:634px}
+.w-lg #so-hotword ul.edit {width:714px}
+.w-lg #so-hotword-backup {width:658px}
+.w-lg #so-hotword-backup ul {width:664px}
+.ie6 .w-lg #so-hotword-backup ul {width:648px !important}
+.w-lg #so-hotword-backup li {margin-right:15px}
+.w-lg .so-hotword-wrap {width:660px}
+.w-lg #info-flow .info-flow-hot {width:410px}
+.w-lg .yule-bd {width:410px}
+.w-lg .yule-fixed {margin-left:153px}
+.w-lg #service-gouwu .service-bd,.w-lg #service-video .service-bd,.w-lg #service-relax .service-bd,.w-lg #service-live .service-bd {padding-left:20px}
+.w-lg #service-video .video-bottom,.w-lg #service-relax .video-bottom,.w-lg #service-gouwu .gouwu-bottom,.w-lg #service-youxi .service-left {width:881px}
+.w-lg #service-video .video-bottom li,.w-lg #service-relax .video-bottom li {margin-right:14px}
+.w-lg #service-video .video-live,.w-lg #service-relax .video-live {margin-right:10px;_display:inline}
+.w-lg #service-video .video-middle {width:538px;margin-left:14px}
+.w-lg #service-video-inner {width:1135px}
+.w-lg #service-video .video-middle .content {margin-right:13px}
+.w-lg #service-video .video-middle .item-patch {display:inline}
+.w-lg #service-video .video-bottom .slide-switch .slide-content,.w-lg #service-relax .video-bottom .slide-switch .slide-content {width:100%}
+.w-lg #service-video .video-bottom .slide-switch {width:100%}
+.w-lg #service-video .video-bottom .slide-switch .slide-column-pagedown,.w-lg #service-relax .video-bottom .slide-switch .slide-column-pagedown {right:0}
+.w-lg #service-gouwu {height:428px}
+.w-lg #service-gouwu .service-bd {height:385px}
+.w-lg #service-gouwu .gouwu-left {width:240px;height:240px}
+.w-lg #service-gouwu .gouwu-middle {width:527px;height:240px}
+.w-lg #service-gouwu .gouwu-middle.item-patch {width:110px}
+.w-lg #service-gouwu .gouwu-middle.item-patch .content {margin-left:0}
+.w-lg #service-gouwu .gouwu-middle .content {height:112px;width:112px;margin-left:16px;margin-bottom:14px}
+.w-lg #service-gouwu-inner {width:1137px}
+.w-lg #service-gouwu .gouwu-bottom li {margin-right:14px}
+.w-lg .widget-slide-inner .slide-column-content {width:1110px}
+.w-lg #service-gouwu .gouwu-side {margin-right:10px}
+.w-lg #service-gouwu-inner .gouwu-silder .gouwu-piclist a {margin-top:13px}
+.w-lg .widget-slide-inner {width:1164px}
+.w-lg #localcity .localcity-bd .localcity-info .g-pic,.w-lg #localcity .localcity-bd .localcity-info li {margin-right:10px}
+.w-lg #localcity .localcity-bd .localcity-info .item-patch {display:inline}
+.w-lg #localcity .localcity-bd .localcity-info .pic-outer {width:1110px}
+.w-lg #localcity .localcity-bd .localcity-info .txt-outer {width:1110px}
+.w-lg .widget-slide-inner .slide-column-content .slide-column-inner {width:1110px}
+.w-lg #service-youxi .game-piclist li {margin-right:13px}
+.w-lg #service-youxi .game-piclist {width:886px}
+.w-lg #service-youxi .slide-switch .slide-content {width:886px}
+.w-lg #service-youxi .slide-switch {width:886px}
+.w-lg #service-youxi .game-icon {width:886px}
+.w-lg #service-youxi .game-icon .service-small-pic {float:left;width:760px;overflow:hidden}
+.w-lg #service-youxi .game-icon .service-small-pic.item-patch {width:150px}
+.w-lg #service-youxi .slide-column-wrap {width:2848px}
+.w-lg #service-youxi .game-icon li {margin-right:15px}
+.w-lg #service-relax-inner {width:1136px}
+.w-lg #service-relax .video-bottom .slide-switch {width:100%}
+.w-lg #service-relax .relax-middle {width:516px;_display:inline}
+.w-lg #service-relax .relax-middle .news-block {float:left;width:50%;margin-top:0}
+.w-lg #service-relax .relax-middle .news-block.bottom { margin:0;margin-top:16px; padding:0; border:none; font-size:14px;}
+.w-lg #service-relax .relax-middle .news-block.bottom a { color:#273028; margin: inherit; text-decoration: none; }
+
+
+.w-lg #service-relax .relax-wide {display:block}
+.w-lg #service-relax .relax-standard {display:none}
+.w-lg #service-live .focuspic .list .normal {margin-left:9px}
+.w-lg #service-licai-inner {width:1124px}
+.w-lg #service-licai .licai-left {width:455px}
+.w-lg #service-licai .licai-middle {width:375px;padding:0 20px}
+.w-lg #service-licai .cell-hd {padding-right:25px}
+.w-lg #service-licai .licai-left .cell-bd {padding-right:25px;padding-left:10px}
+.w-lg #service-licai .licai-middle .cell-bd {width:375px}
+.w-lg #service-licai .licai-left .action {width:175px}
+.w-lg #service-licai .licai-middle .goods-item {width:187px}
+.w-lg #service-licai .licai-left .action .btn-desc,.w-lg #service-licai .licai-left .action .btn-desc a {width:181px}
+.w-lg #theme-panel .theme-hd {width:1170px}
+.w-lg #theme-panel .theme-list li {margin:4px 43px 4px 35px}
+.w-lg #top_hotsite {width:900px}
+.w-lg #top_hotsite a {width:109px;text-align:center}
+.w-lg #top_hotsite a.first {width:137px}
+.w-lg #famous-section .list li {padding:0 8px}
+.w-lg #new-site .list li {padding:0 9px}
+.w-lg #cool-site .nav a {padding:0 18px 0 20px}
+.w-lg #cool-site .item .subtitle {padding-left:11px}
+.w-lg #bangbang-r .bangbang-fill .subtitle {margin-left:20px}
+.w-lg #infoflow_guess .infoflow-hd {margin:0 18px}
+.w-lg #infoflow_guess .infoflow-list {padding-left:5px}
+.w-lg #infoflow_guess .infoflow-bd {width:898px}
+.w-lg #infoflow_guess .infoflow-item {width:418px}
+.w-lg #infoflow_guess .refresh-btn,.w-lg #infoflow_guess .infoflow-guess-number {width:863px}
+.w-lg #infoflow_guess .newsflow-tips {width:863px;left:17px}
+.w-lg #infoflow_guess .text-source .tag1 {display:block}

@@ -1,0 +1,488 @@
+
+<div class="gmodule g-box" id="info-flow" data-cate="info-flow">
+	<textarea>
+		<div class="info-flow-cont infoflow-left">
+	<div class="info-flow-nav">
+	    <ul id="infoflow-nav-ul"></ul>
+	</div>
+	<div class="info-flow-outer clearfix">
+		<div class="alerts alert-unread" id="j-alert-loading">
+		</div>
+		<div class="alerts alert-unread" id="j-alert-unread">
+			<span class="alerts-text">您有未读新闻, 点击查看</span>
+			<span class="alerts-btn-close j-unread-close">
+				<i id="j-unread-close">×</i>
+			</span>
+		</div>
+		<div id="info-flow-operat">
+			<!-- 第一条 -->
+		</div>
+		<div id="info-flow-inner"></div>
+		<div class="info-flow-error" id="info-flow-error">
+			<p>
+				<img src="https://p0.ssl.qhimg.com/t014b753bce90a823b4.png" alt="">
+				哎呀，服务器繁忙，请稍后重试~
+			</p>
+			<div id="info-flow-retry">再试一次</div>
+		</div>
+		<div class="loading-more-btn" id="loading-more-btn"></div>
+	</div>		
+</div>
+
+            <div class="info-flow-hot  infoflow-right">
+	<div id="xingzuo">
+	<div class="title">
+	    <p class="xingzuo-icon">
+	        <img src="https://p0.ssl.qhimg.com/t01f327cfae1ca45d49.png" alt="" /> 星座运势
+	    </p>
+	    <p class="xingzuo-more">
+	        <a href="http://hao.360.cn/xingzuo.html" class="more-xingzuo">更多 > </a>
+	    </p>
+	</div>
+	<div class="xingzuo-inner">
+		<div class="zodiac-summary">
+			<a class="zodiac-icon" href="http://hao.360.cn/xingzuo.html"></a>
+			<div class="zodiac-fortune">
+				<div class="zodiac-select">
+				    <div class="select-title">
+				    	<span id="selected-zodiac"></span>
+				    	<span class="toggle"></span>
+				    </div>
+					<ol class="select-list"></ol>
+				</div>
+				<div class="fortune-score">今日运势：<span class="fortune-stars"></span></div>
+			</div>
+		</div>
+		<div class="fortune-desc">整体运势：<span></span><a class="details" target="_blank"> 详细></a></div>
+	</div>
+</div>	
+	<div class="info-flow-news" id="hot-news-right">
+	    <div class="title yule-hd">
+	        <p class="hot-news-icon">
+	            <img src="https://p0.ssl.qhimg.com/t0124c6754c2815f378.png" alt="" /> 娱乐沸点
+	        </p>
+	        <p class="hot-news-more">
+	            <a href="http://yule.360.cn/?from=haoindex" class="more-news">更多 > </a>
+	        </p>
+	    </div>
+	    <div id="hot-recommend-loading">
+	        <i><img src="https://p1.ssl.qhimg.com/t012844a3ec4f870d1c.gif"></i>
+	        <span>加载中</span>
+	   	</div>
+	    <div class="yule-bd">
+	        <div id="hotRecommend">
+	            <ul>
+	            </ul>
+	        </div>
+	    </div>
+	    <div class="yule-ft" id="yule-ft"></div>
+	</div>
+</div>
+	</textarea>
+</div>
+
+<!-- 视频、单图模板 start-->
+<script type="text/html" id="j-tpl-feed1">
+    <div class="feed-item js-feed" data-gid="{{gid}}" log-already="0">
+        <div class="media table-cell">
+            <div class="media-obj">
+                <div class="img-wrap">
+                    {{if pcurl && data.title && data.covers && data.covers.length > 0}}
+                    <a href="{{pcurl}}" title="{{data.title}}">
+                        <img class="lazy" src="{{data.covers[0] | cutter:'156-86'}}"
+                                    alt="{{data.title}}" width="156"
+                                    height="86">
+                        {{if data.s && data.s == 'y'}}
+                        <span class="video-time"></span>
+                        {{/if}}
+                    </a>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="media-body">
+                <h1 class="media-title">
+                    {{if data.title && pcurl}}
+                    <a href="{{pcurl}}" title="{{data.title}}">{{data.title}}</a>
+                    {{/if}}
+                </h1>
+                <p class="media-extra">
+                    {{if data.source}}
+                    <span class="col cite">
+                        {{if data.zmt}}
+                        <a href="http://sh.qihoo.com/pc/zmt?id={{data.zmt.id}}&uid={{data.uid}}&sign=360_2b4058b3" title="{{data.title}}">
+                        {{/if}}
+
+                        {{if data.author_img}}
+                            <span class="cite-logo">
+                                <img src="{{data.author_img}}" width="16" height="16" alt="{{data.source}}">
+                            </span>
+                        {{else}}
+                            <span class="cite-logo no-logo">
+                                <span class="name">{{data.source.substring(0, 1)}}</span>
+                            </span>
+                        {{/if}}
+                        <span class="cite-name">{{data.source}}</span>
+                        {{if data.zmt}}
+                        </a>
+                        {{/if}}
+                    </span>
+                    <span class="col dot"></span>
+                    {{/if}}
+
+                    {{if data.pdate_str}}
+                    <span class="col time">{{data.pdate_str}}</span>
+                    {{/if}}
+
+                    {{if data.tag && data.tag.length > 0}}
+                    <span class="col dot"></span>
+                    <span class="col tag">{{data.tag[0].name}}</span>
+                    {{/if}}
+                </p>
+            </div>
+        </div>
+    </div>
+</script>
+<!-- 视频、单图模板 end-->
+
+<!-- 文本模板 start-->
+<script type="text/html" id="j-tpl-feed2">
+    <div class="feed-item js-feed" data-gid="{{gid}}" log-already="0">
+            <div class="media">
+                <div class="media-body">
+                    <h1 class="media-title title-fix">
+                        {{if data.title && pcurl}}
+                        <a href="{{pcurl}}" title="{{data.title}}">{{data.title}}</a>
+                        {{/if}}
+                    </h1>
+                    <p class="media-extra">
+                        {{if data.source}}
+                        <span class="col cite">
+                            {{if data.zmt && data.zmt.id}}
+                            <a href="http://sh.qihoo.com/pc/zmt?id={{data.zmt.id}}&uid={{data.uid}}&sign=360_2b4058b3" title="{{data.title}}">
+                            {{/if}}
+
+                            {{if data.author_img}}
+                                <span class="cite-logo">
+                                    <img src="{{data.author_img}}" width="16" height="16" alt="{{data.source}}">
+                                </span>
+                            {{else}}
+                                <span class="cite-logo no-logo">
+                                    <span class="name">{{data.source.substring(0, 1)}}</span>
+                                </span>
+                            {{/if}}
+                            <span class="cite-name">{{data.source}}</span>
+                            {{if data.zmt && data.zmt.id}}
+                                </a>
+                            {{/if}}
+                        </span>
+                        <span class="col dot"></span>
+                        {{/if}}
+
+                        {{if data.pdate_str}}
+                        <span class="col time">{{data.pdate_str}}</span>
+                        {{/if}}
+
+                        {{if data.tag && data.tag.length > 0}}
+                        <span class="col dot"></span>
+                        <span class="col tag">{{data.tag[0].name}}</span>
+                        {{/if}}
+                    </p>
+                </div>
+            </div>
+    </div>
+</script>
+<!-- 文本模板 end-->
+
+<!-- 4张图横排 start-->
+<script type="text/html" id="j-tpl-feed3">
+    <div class="feed-item js-feed" data-gid="{{gid}}" log-already="0">
+        <div class="media">
+            <div class="media-body figure-extra">
+                <h1 class="media-title title-fix">
+                    {{if data.title && pcurl}}
+                    <a href="{{pcurl}}" title="{{data.title}}">{{data.title}}</a>
+                    {{/if}}
+                </h1>
+                {{if pcurl && data.title && data.covers && data.covers.length > 0}}
+                <div class="figure-grid-wrap">
+                    <div class="figure-grid clearfix">
+                       
+                        <a href="{{pcurl}}" title="{{data.title}}">
+                            {{each data.covers as item index }}
+                            {{ if index < 4 }}
+                            <div class="figure">
+                                <div class="figure-img">
+                                    <img class="lazy" src="{{item | cutter:'156-86'}}"
+                                        alt="{{data.title}}" width="156"
+                                        height="86">
+                                </div>
+                            </div>
+                            {{/if}}
+                            {{/each}}
+                        </a>
+                    </div>
+                    {{/if}}
+                </div>
+                <p class="media-extra">
+                    {{if data.source}}
+                    <span class="col cite">
+                        {{if data.zmt && data.zmt.id && data.uid}}
+                            <a href="http://sh.qihoo.com/pc/zmt?id={{data.zmt.id}}&uid={{data.uid}}&sign=360_2b4058b3" title="{{data.title}}">
+                        {{/if}}
+
+                        {{if data.author_img}}
+                            <span class="cite-logo">
+                                <img src="{{data.author_img}}" width="16" height="16" alt="{{data.source}}">
+                            </span>
+                        {{else}}
+                            <span class="cite-logo no-logo">
+                                <span class="name">{{data.source.substring(0, 1)}}</span>
+                            </span>
+                        {{/if}}
+                        <span class="cite-name">{{data.source}}</span>
+                        {{if data.zmt}}
+                            </a>
+                        {{/if}}
+                    </span>
+                    <span class="col dot"></span>
+                    {{/if}}
+
+                    {{if data.pdate_str}}
+                    <span class="col time">{{data.pdate_str}}</span>
+                    {{/if}}
+
+                    {{if data.tag && data.tag.length}}
+                    <span class="col dot"></span>
+                    <span class="col tag">{{data.tag[0].name}}</span>
+                    {{/if}}
+                </p>
+            </div>
+        </div>
+
+    </div>
+</script>
+<!-- 3，4张图横排 end-->
+
+<!-- 信息流nav模板 start -->
+<script type="text/html" id="infoflow-header-tpl">
+    {{if data}}
+    {{each data as item index }}
+        <li>
+            <a {{if index < 1 }}
+                class="active" 
+            {{else if index === 9}}
+                class="last-nav"
+            {{/if}}
+            {{if item.cid && item.cname}}
+            data-cid="{{item.cid}}" href="###">{{item.cname}}</a>
+            {{/if}}
+        </li>
+    {{/each}}
+    {{/if}}
+</script>
+<!-- 信息流nav模板 end -->
+
+
+<!-- 信息流各频道容器模板 start -->
+<script type="text/html" id="switch-wrap-tpl">
+    {{if data}}
+    {{each data as item index }}
+        <div class="switch-wrap" id="{{'infoflow-' + item.cid + '-wrap'}}"></div>
+    {{/each}}
+    {{/if}}
+</script>
+<!-- 信息流各频道容器模板 end -->
+
+
+<!-- loadmore模板 start -->
+<script type="text/html" id="load-more-tpl">
+    <a id="loading-button" class="{{loadCname}}" {{if disabled===true }} href="###" {{/if}}>
+        <i><img src="{{img}}"></i>
+        <span>{{text}}</span>
+   </a>
+</script>
+<!-- loadmore模板 end -->
+
+
+
+<!-- mv单图广告模板 start -->
+<script type="text/html" id="j-tpl-mv1">
+
+    <div class="feed-item feed-mv" data-gid="{{gid}}" log-already="0">
+            <div class="media table-cell">
+                <div class="media-obj">
+                    <div class="img-wrap">
+                        {{if curl && desc && img}}
+                        <a href="{{curl}}" title="{{desc}}">
+                            <img class="lazy" src="{{img}}"
+                                 width="156" height="86">
+                        </a>
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="media-body">
+                    <h1 class="media-title">
+                        {{if curl && title}}
+                        <a href="{{curl}}" title="{{title}}">{{title}}</a>
+                        {{/if}}
+                    </h1>
+                    <p class="media-extra">
+                        <span class="cite-name cite">广告</span>
+                        <span class="col dot"></span>
+                        <span class="col tag">
+                            {{if curl && src}}
+                            <a href="{{curl}}">{{src}}</a>
+                            {{/if}}
+                        </span>
+                    </p>
+                </div>
+            </div>
+    </div>
+</script>
+<!-- mv单图广告模板 end -->
+
+<!-- 刷新tips start -->
+<script  type="text/html" id="j-refresh-tpl">
+    <div class="alerts alert-refresh" id="alert-refresh-{{currentCid}}">
+        <span>{{time}}看到这里</span> &nbsp;点击刷新&nbsp; 
+        <i class="y-icon icon-refreshfeed">
+            <img src="https://p1.ssl.qhimg.com/t0109d88a02f71ad6c5.png" />
+        </i>
+    </div>
+</script>
+<!-- 刷新tips end -->
+
+<!-- 多图广告start -->
+<script type="text/html" id="j-tpl-mv2">
+    <div class="feed-item feed-mv" data-gid="{{gid}}" log-already="0">
+        <div class="media">
+            <div class="media-body figure-extra">
+                <h1 class="media-title title-fix">
+                    {{if curl && title}}
+                    <a href="{{curl}}" title="{{title}}">{{title}}</a>
+                    {{/if}}
+                </h1>
+                <div class="figure-grid-wrap">
+                    <div class="figure-grid clearfix">
+                        
+                        {{each assets as item index }}
+                        {{ if index < 4 }}
+                        <div class="figure">
+                            <div class="figure-img">
+                                {{if item && item.curl && item.img && title}}
+                                <a href="{{item.curl}}" title="{{title}}">
+                                    <img src="{{item.img}}"
+                                        alt="{{title}}"
+                                        width="156"
+                                        height="86">
+                                </a>
+                                {{/if}}
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{/each}}
+                    </div>
+                </div>
+                <p class="media-extra">
+                    <span class="cite-name cite">广告</span>
+                    <span class="col dot"></span>
+                    {{if src}}
+                    <span class="col tag">
+                        {{src}}
+                    </span>
+                    {{/if}}
+                </p>
+            </div>
+        </div>
+    </div>
+</script>
+<!-- 多图广告end -->
+
+
+<!-- 大图广告模板start -->
+<script type="text/html" id="j-tpl-mv3">
+    <div class="feed-item feed-mv" data-gid="{{gid}}" log-already="0" >
+        <div class="media">
+            <div class="media-body figure-extra">
+                <h1 class="media-title title-fix">
+                    {{if curl && title}}
+                    <a href="{{curl}}" title="{{title}}">{{title}}</a>
+                    {{/if}}
+                </h1>
+                <div class="figure-grid-wrap">
+                    <div class="mv-big-pics clearfix">
+                        {{if curl && title && img}}
+                        <a href="{{curl}}" title="{{title}}">
+                            <img src="{{img}}"
+                                alt="{{title}}"
+                                width="100%">
+                        </a>
+                        {{/if}}
+                    </div>
+                </div>
+                <p class="media-extra">
+                    <span class="cite-name cite">广告</span>
+                    <span class="col dot"></span>
+                    {{if src}}
+                    <span class="col tag">
+                        {{src}}
+                    </span>
+                    {{/if}}
+                </p>
+            </div>
+        </div>
+    </div>
+</script>
+<!-- 大图广告模板end -->
+
+<!-- 娱乐mv广告模板start -->
+<script type="text/html" id="j-tpl-yulemv">
+    <li class="clearfix feed-mv" data-gid="{{gid}}" log-already="0">
+        <div class="g-pic">
+            {{if curl && img}}
+            <a href="{{curl}}">
+                <img alt="" src="{{img}}" width="100" height="55">
+                <span class="ad yule-mv"></span>
+                <span class="mask"></span>
+                <i></i>
+            </a>
+            {{/if}}
+        </div>
+        <p>
+            <span>
+                {{if title}}
+                <a href="{{curl}}" target="_blank">{{title}}</a>
+                {{/if}}
+            </span>
+            <i></i>
+        </p>
+    </li>
+</script>
+<!-- 娱乐mv广告模板end -->
+
+<!-- 娱乐沸点模板 start -->
+<script type="text/html" id="j-tpl-yule">
+    <li class="clearfix">
+        <div class="g-pic">
+            {{if link && pic}}
+            <a href="{{link}}">
+                <img alt="" src="{{pic}}" width="100" height="55">
+                <span class="mask"></span>
+                <i></i>
+            </a>
+            {{/if}}
+        </div>
+        <p>
+            <span>
+                {{if link && title}}
+                <a href="{{link}}" target="_blank">{{title}}</a>
+                {{/if}}
+            </span>
+            <i></i>
+        </p>
+    </li>
+</script>
+<!-- 娱乐沸点模板 end -->
+
+
+

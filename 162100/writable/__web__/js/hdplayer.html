@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国网络电视台 - 直播</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="http://t.live.cntv.cn/cntvwebplay/cntvplayer/style/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://p4.img.cctvpic.com/tv/js/jquery-1.7.2.min.js"></script>
+</head>
+<body id="bid" style="background:#000; margin:0px; padding:0px;">
+        <div class="zhibo_text_box" id="vodeo-play-js">
+          <div style="background-color: #00000;width:640px;height: 360px;"></div>
+          <div class="clear_float"></div>
+        </div>
+
+<script type="text/javascript" src="http://t.live.cntv.cn/cntvwebplay/cntvplayer/js/cntv_main.js" charset='utf-8'></script>
+<script type="text/javascript" src="http://js.player.cntv.cn/creator/swfobject.js"></script>
+<script type="text/javascript" src="http://js.player.cntv.cn/creator/live_common.js"></script>
+<script type="text/javascript">
+document.referer = 'http://www.cntv.cn/';
+function getQuery(name) {
+  var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+  var r = window.location.search.substr(1).match(reg);
+  if (r != null) {
+    //return decodeURIComponent(r[2]);
+    return r[2];
+  }
+  return '';
+}
+
+var channelP2P = getQuery('channel'); //"pl://cctv_p2p_hdguangdong",
+//高清信号频道标志
+var channel = channelP2P.replace(/^p.{1}\:\/\/cctv_p2p_(hd)?/ig, '');
+//节目单XML文件名前缀
+var channelP2P380k = channelP2P.replace(/cctv_p2p_hd/ig, 'cctv_p2p_');
+var channelIpad = "",
+//IPAD
+channelCDN = "203e1c3f283f223b173a293e2b3f203f263a2b3e263e2c3f2e3f263a1b3e2f3e2b3f243e2a3e263a2b3e273e253e263a2b3e263e273a2b3b203b283b2f3e2d3f293e263e2f3e2c3e273e263e2f3e263a293e2b3f203f",
+//标清的海外
+ch_cdn_hd = "203e1c3f283f223b173a293e2b3f203f263a2b3e263e2c3f2e3f263a1b3e2f3e2b3f243e2a3e263a2b3e273e253e263a2b3e263e273a2f3e2d3f293e263e2f3e2c3e273e263e2f3e2f3f2d3e213e2b3f203e213e263a293e2b3f203f",
+//高清的海外
+channelm3u8 = "203e1c3f283f223b173a2e3f2c3e263e263a293e183f2b3f263a2b3e263e2c3f2e3f263a2b3e263e273a293e283f213e273a2f3e2d3e2c3f243c213e2e3f2d3e2d3d2a3f243e2b3c273e153e273e263e2a3d2d3e2c3e213e2a3f2d3e2b3e2c3f293c283f213e263a2c3e273e273b2b3e203e293e163e2d3e243e253b283f293e223b173a1b3e2c3f2e3f273d283f2a3b283f273d203e2c3e2f3e2d3f293e263e2f3e2c3e273e263e2f3e2c3f2e3f2e3a2c3f213f283f2d3e253b213e283f203e273e263e2d3e2e3a2b3f2c3f2a3f2d3e293e253e253b253e2b3b2d3f203b",
+//m3u8标清直播地址
+channelm3u8_hd = "203e1c3f283f223b173a2e3f2c3e263e263a293e183f2b3f263a2b3e263e2c3f2e3f263a2b3e263e273a293e283f213e273a2f3e2d3e2c3f243c213e2e3f2d3e2d3d2a3f243e2b3c273e153e273e263e2a3d2d3e2c3e213e2a3f2d3e2b3e2c3f293c283f213e263a2c3e273e273b2b3e203e293e163e2d3e243e253b283f293e223b173a1b3e2c3f2e3f273d283f2a3b283f273d203e2c3e2f3e2d3f293e263e2f3e2c3e273e263e2f3e2c3f2e3f2e3a2c3f213f283f2d3e253b213e283f293e2c3e2e3a2b3f2c3f2a3f2d3e293e253e253b253e2b3b2d3f203b"; //m3u8高清直播地址
+
+channelAd = '';
+channelWrating = ""; //广告码 原视频窗地址中 wrating
+liuyanItemid = ''; //边看边聊频道分类
+liuyanCategory = ''; //边看边聊频道内子类 
+video_channel_name = channel;
+/* Flash播放器及ipad 使用的直播流名称 */
+
+var date = '';
+var channelVDN = "";
+var channelAD, _Adcorner, _Adpause;
+channelAD = '';
+_Adpause = '';
+_Adcorner = '';
+
+_ExecCommand_value = ''; //以后要删除,现在为避免cdn未发布报错才保留
+
+</script>
+<script type="text/javascript" src="http://p5.img.cctvpic.com/tv/js/v4/live3.js"></script>
+
+</body>
+</html>

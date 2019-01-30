@@ -1,0 +1,187 @@
+
+
+
+
+
+<style type="text/css">
+
+#infoflow_guess .scrollbox {background:#f7f7f7}
+#infoflow_guess .scrollBar {top:0;width:8px;border-radius:6px;left:1px;background:#c2c2c2}
+#infoflow_guess {position:relative;display:none;font-size:14px}
+#infoflow_guess .title {float:left;height:26px;line-height:26px}
+#infoflow_guess .title a {color:#3eaf0e}
+#infoflow_guess .extra {float:right;height:26px;line-height:26px;color:#666;font-weight:normal;font-size:12px}
+#infoflow_guess .extra a {color:#919191}
+#infoflow_guess .more {padding-left:12px}
+#infoflow_guess .extra a:hover {color:red}
+#infoflow_guess .infoflow-bd {width:748px;height:549px;position:relative;overflow:hidden}
+#infoflow_guess .click-load-more {position:absolute;left:0px;bottom:0px;text-align:center;width:100%;font-size:12px;height:21px;line-height:21px;border-radius:2px 2px 0 0;background:#e3f1ff;color:#1f8fcd;cursor:pointer}
+#infoflow_guess .click-load-more a {color:#1f8fcd}
+#infoflow_guess .newsflow-tips {display:none;position:absolute;top:26px;left:12px;z-index:1;width:723px;font-size:12px;height:26px;line-height:26px;cursor:pointer;vertical-align:middle;color:#ed724b;background-color:#fffdee;text-align:center;cursor:pointer}
+#infoflow_guess .newsflow-tips img {display:inline;vertical-align:middle;position:relative;top:-1px}
+#infoflow_guess .newsflow-tips:hover {color:red}
+#infoflow_guess .loading {display:block;margin:12px;height:26px;line-height:26px;font-size:12px;text-align:center;clear:both}
+#infoflow_guess .infoflow-hd {margin:0 12px;border-bottom:1px dotted #e9e9e9}
+#infoflow_guess .newsflow-tips .close {position:absolute;top:0;right:20px;width:10px;height:10px;cursor:pointer;color:#ed724b;font-size:14px}
+#infoflow_guess a.gear {display:block;position:absolute;top:7px;padding-right:8px;right:58px;width:38px;height:14px;border-right:1px solid #d8d8d8;cursor:pointer;line-height:14px;text-align:right;background:url(https://p1.ssl.qhimg.com/t012a88ac34bfe4f63a.png) no-repeat}
+#infoflow_guess a.gear:hover {background:url(https://p0.ssl.qhimg.com/t0100109eb6f7412d77.png) no-repeat}
+#infoflow_guess .infoflow-close {display:none}
+#infoflow_guess .infoflow-close:before {top:-12px;border-color:transparent transparent #d2d2d2 transparent}
+#infoflow_guess .infoflow-close:after {top:-11px;border-color:transparent transparent #fff transparent}
+#infoflow_guess .infoflow-close:before,#infoflow_guess .infoflow-close:after {overflow:hidden;position:absolute;left:50%;margin-left:-5px;width:0;height:0;border-width:6px;border-style:dashed dashed solid;content:''}
+#infoflow_guess .infoflow-close a.close {overflow:hidden;display:block;position:absolute;right:-12px;top:6px;width:12px;height:12px;background:url(https://p1.ssl.qhimg.com/t019d585d07ab5a3682.png) no-repeat}
+#infoflow_guess .infoflow-close a.close:hover {background:url(https://p1.ssl.qhimg.com/t017bd95ead32caf8f4.png) no-repeat}
+#infoflow_guess .infoflow-close {position:absolute;top:26px;right:0px;width:200px;height:82px;text-align:center;background:#fff;z-index:2;border:1px solid #e5e5e5}
+#infoflow_guess .infoflow-close li.top {font-size:14px;cursor:auto;margin-top:13px}
+#infoflow_guess .infoflow-close li {cursor:pointer;margin-top:7px}
+#infoflow_guess .infoflow-close li.bottom360_2 a {margin-right:15px}
+#infoflow_guess .infoflow-close li.bottom360_2 a.left360_2 {padding:5px 10px}
+#infoflow_guess .infoflow-close li.bottom360_2 a.right360_2 {padding:5px 10px;color:#fff;background:#3ba354;border-radius:3px}
+#infoflow_guess .infoflow-guess-number {margin:0 12px;display:none;width:715px;height:26px;line-height:26px;text-align:center;cursor:pointer;color:#ed724b;font-size:12px;background:#fff8d9;overflow:hidden}
+#infoflow_guess .icon-refreshfeed img {_margin:12px 0 12px 0;vertical-align:middle}
+#infoflow_guess .refresh-btn {float:left;margin:12px;width:715px;height:26px;line-height:26px;text-align:center;cursor:pointer;color:#ed724b;font-size:12px;background:#fff8d9}
+#infoflow_guess .refresh-btn:hover {color:red}
+#infoflow_guess .refresh-more {display:none}
+#infoflow_guess .infoflow-list {overflow:hidden}
+#infoflow_guess .infoflow-item {float:left;margin:0 12px;padding:10px 0;width:346px;border-top:1px dotted #ebebeb;margin-top:-1px;display:inline}
+#infoflow_guess .mv a {display:block;position:relative}
+#infoflow_guess .mv a .ad {top:0}
+#infoflow_guess .infoflow-item .text-title a:hover {text-decoration:underline}
+#infoflow_guess .infoflow-item a:hover {text-decoration:none}
+#infoflow_guess .infoflow-item:hover {background:#f8f8f8}
+#infoflow_guess .infoflow-item .img-wrap img {transition:transform 0.5s ease-in-out}
+#infoflow_guess .infoflow-item a:hover img {transform:scale(1.1)}
+#infoflow_guess .infoflow-item a:hover .text-source {color:#919191}
+#infoflow_guess .infoflow-item a:hover .text-title {text-decoration:underline}
+#infoflow_guess .text-wrap {overflow:hidden}
+#infoflow_guess .text-title {margin-top:3px;height:42px;overflow:hidden}
+#infoflow_guess .text-title a {display:block}
+#infoflow_guess .text-source {margin-top:8px;font-size:12px;color:#999999}
+#infoflow_guess .text-source .tag {float:left;display:block;padding:2px 6px 0 6px;margin:0 10px 0px 0;border-radius:4px;line-height:16px;background:#f3fafe}
+#infoflow_guess .text-source .tag1 {display:none}
+#infoflow_guess .text-source .tag a {color:#07519a}
+#infoflow_guess .text-source .tag a:hover {color:red;text-decoration:underline}
+#infoflow_guess .hot-icon {display:block;float:left;overflow:hidden;width:14px;height:14px;text-align:center;line-height:14px;border-radius:2px;margin:1px 6px 0 0;color:#fff;background:#ff8330}
+#infoflow_guess .source-time {padding-right:12px}
+#infoflow_guess .source-logo:hover {text-decoration:none}
+#infoflow_guess .img-wrap {float:left;margin:0 15px 0 0;overflow:hidden}
+</style>
+
+
+<code class="code360" id="code360_middle">
+<div id="doc-main-bd" class="bd">
+
+
+
+<div id="infoflow_guess" class="gmodule g-box">
+	<div class="infoflow-recommend" id="infoflow-recommend">
+		<div class="infoflow-hd gclearfix">
+			<h2 class="title"><a href="http://sh.qihoo.com/pc/?sign=360dh">快资讯</a></h2>
+			<div class="extra">
+				<a href="###" class="gear infoflow-close-btn">设置</a>
+				<ul class="infoflow-close">
+	                <li class="top">您确定要关闭快资讯吗？</li>
+	                <li class="bottom">
+	                	<a href="javascript:void(0);" class="close"></a>
+	                	<a href="javascript:void(0)" class="left noshow">关闭</a>
+	                	<a href="javascript:void(0);" class="right continue-use">取消</a>
+	                </li>
+	            </ul>
+				<a href="http://sh.qihoo.com/pc/?sign=360dh" title="更多" class="more">更多»</a>
+			</div>
+		</div>
+		<div class="infoflow-bd" id="infoflow-box">
+    		<div id="infoflow-content">
+				<div class="infoflow-guess-number"></div>
+    			<div class="infoflow-list" id="infoflow-list"></div>
+				<div class="loading">
+					<i><img src="https://p1.ssl.qhimg.com/t012844a3ec4f870d1c.gif"></i>
+					<span>加载中</span>
+				</div>
+				<div class="refresh-btn refresh-more infoflow-guess-tips" id="j-infoflow-guess-more"> 
+					<span>点击查看更多&nbsp;</span>
+					<i class="y-icon icon-refreshfeed"> 
+						<img src="https://p1.ssl.qhimg.com/t0109d88a02f71ad6c5.png"> 
+					</i> 
+				</div>
+    		</div>
+    	</div>
+	</div>
+	<div class="newsflow-tips infoflow-guess-tips" id="j-newsflow-tips">
+       <span>您有未读消息，点击查看</span>
+       <p class="close" id="j-newsflow-tips-close">×</p>
+    </div>
+</div>
+
+<script type="text/template" id="infoflow-guess-tpl">
+<div class="infoflow-item {{clsName}} {{data_src}}" data-key={{key}} log="0">
+	<div class="img-wrap">
+		<a href="{{url}}" title="{{title}}">
+			<img class="lazy" src="{{img}}" alt="{{title}}" width="125" height="71">
+		</a>
+	</div>
+	<div class="text-wrap">
+		<p class="text-title">
+			<a href="{{url}}" title="{{title}}">{{title}}</a>
+		</p>
+		<p class="text-source">
+			{{if tagArr && tagArr.length > 0}}
+			{{each tagArr as item index }}
+			{{if index === 0 }}
+			<span class="tag tag{{index}}">
+				<a href="http://k.hao.360.cn/t/{{item.encodeDis}}?from=ifg" data-clk="{{item.clk}}">#{{item.dis}}#</a>
+			</span>
+			{{/if}}
+			{{if index === 1 && item.dis.length <= 9 - tagArr[0].dis.length}}
+			<span class="tag tag{{index}}">
+				<a href="http://k.hao.360.cn/t/{{item.encodeDis}}?from=ifg" data-clk="{{item.clk}}">#{{item.dis}}#</a>
+			</span>
+			{{/if}}
+			{{/each}}
+			
+			{{/if}}
+			{{if (!tagArr && attr)}}
+			<span class="hot-icon">热</span>
+			{{/if}}
+			<span class="source-time">{{source_time}}</span>
+			<!-- {{if (cmt_num > 1)}}
+			<span class="source-cmt-num">{{cmt_num}}评论</span>
+			{{/if}} -->
+		</p>
+	</div>
+</div>
+</script>
+
+<script type="text/template" id="infoflow-guess-mv-tpl">
+	<div class="infoflow-item {{if clsName}}{{clsName}}{{/if}} " data-key={{key}} log="0">
+		<div class="img-wrap">
+			<a href="{{url}}" title="{{title}}">
+				<img class="lazy" src="{{img}}" alt="{{title}}" width="125" height="71">
+				<span class="ad infoflow-guess-mv-ad"></span>
+			</a>
+		</div>
+		<div class="text-wrap">
+			<p class="text-title">
+				<a href="{{url}}" title="{{title}}">
+				{{title}}
+				</a>
+			</p>
+			<p class="text-source">
+				<span class="source-src">{{src}}</span>
+			</p>
+		</div>
+	</div>
+</script>
+
+<script type="text/template" id="infoflow-guess-refresh">
+	<div class="refresh-btn refresh middle-refresh infoflow-guess-tips"> 
+		<span>{{refreshTime}看到这里</span> &nbsp;点击刷新&nbsp; 
+		<i class="y-icon icon-refreshfeed"> 
+			<img src="https://p1.ssl.qhimg.com/t0109d88a02f71ad6c5.png"> 
+		</i> 
+	</div>
+</script>
+
+
+</div>
+</code>

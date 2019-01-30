@@ -1,0 +1,39 @@
+/* 通用 */
+
+#f {background-image:url(img_f.gif); background-repeat: no-repeat;/**/ }
+#search_bar_in a:hover { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-679px 0; }
+#search_bar_in a#searchNavIs span { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-623px 0; }
+
+#su2 { background:#FF9900 url(img_f.gif) -698px -92px no-repeat; }
+
+#new_top td.mode a { background:url(home.gif) -60px 50% no-repeat; }
+#new_top td.mode_is a { background:url(home.gif) 0 50% no-repeat; }
+#top_title_index { width:1000px; }
+/* 增强 */
+html { background:#FEFAFB url(body.jpg) 50% 0 repeat-x; }
+/* 顶眉透明 */
+#new_top td { background:none; border-bottom:1px #FFB4C8 solid; /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; opacity:0.5;*/ }
+#new_top td.mode { border-right:1px #FFB4C8 solid; }
+#new_top td.mode_is { border-bottom:none; border-left:1px #FFB4C8 solid; border-right:1px #FFB4C8 solid; }
+#weather_datetime td { border:none; }
+#new_top td.mode_is a { color:#D15D99; }
+
+#top_title a#top_title_is, #top_title a#top_title_is2 { color:#D15D99; background:#FFB9CB url(t.gif); border-top:1px #D15D99 solid; }
+#top_title a#top_title_is2 { background:#FFFFFF; }
+
+#search_hot_word a { }
+#search_hot_word a.s_c { border:1px #D0B3C2 solid; }
+#search_bar_in a { }
+#search_bar_in a span { }
+#search_bar_in a#searchNavIs span { }
+#ou_in button { }
+#ou_in button#ou_in_is { }
+
+.mingz { border:1px #D15D99 solid; }
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+
+<!--页脚-->
+<div id="foot"> <?php //echo $indexmod==1?'<a href="index.php">动态首页</a> - ':'<a href="index.html">静态首页</a> - '; ?><!--foot--><a href="column.php">网站地图</a> - <a href="about.php">关于本站</a> - <a href="setindex.php">首页修复</a> - <a href="write_newsite.php">网站提交</a> - <a href="help.php">使用帮助</a> - <a href="http://m.162100.com/">手机版</a> - <a href="http://info.162100.com/index.s.2-408..1.html">论坛交流</a> - <a href="http://www.162100.com/down/">下载本站</a><!--/foot-->
+<div id="foot_v"><?php @ require('v.txt'); ?> &nbsp;&nbsp;Copyright <span class="copy">&copy;</span> <?php echo $web['root']; ?> ,&nbsp;&nbsp;<?php @ require('writable/require/icp.txt'); ?> </div></div>

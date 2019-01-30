@@ -1,0 +1,6 @@
+<?php
+$v = 'OS4wLjk=';
+echo base64_decode('PHNwYW4gaWQ9InZlcnNpb24iIHRpdGxlPSJbMTYyMTAwLmNvbea6kOeggeWIm+S9nF0iPjxhIGhyZWY9Imh0dHA6Ly93d3cuMTYyMTAwLmNvbS8iIHRhcmdldD0iX2JsYW5rIj4xNjIxMDA8L2E+PHNwYW4gaWQ9InYiPnY=');
+echo base64_decode($v);
+echo base64_decode('PC9zcGFuPjwvc3Bhbj4=');
+?>

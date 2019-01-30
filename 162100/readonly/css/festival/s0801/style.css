@@ -1,0 +1,49 @@
+/* 通用 */
+
+#f {background-image:url(img_f.gif); background-repeat: no-repeat;/**/ }
+#search_bar_in a:hover { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-679px 0; }
+#search_bar_in a#searchNavIs span { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-623px 0; }
+
+
+#su2 { background:#FF9900 url(img_f.gif) -698px -92px no-repeat; }
+
+#new_top td.mode a { background:url(home.gif) -60px 50% no-repeat; }
+#new_top td.mode_is a { background:url(home.gif) 0 50% no-repeat; }
+/* 增强 */
+
+/* 网页背景
+#head_out { background-image:url(body.png); background-repeat:no-repeat; background-position:50% 50%; }
+ */
+#f { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); -moz-opacity:0.9; -khtml-opacity:0.9; opacity:0.9; }
+#f:hover { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1; }
+
+html { background:#F3F3F3 url(body.png) 50% 0 no-repeat; }
+#new_top td { background:none;; /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; opacity:0.5;*/ }
+#new_top td.mode { }
+#new_top td.mode_is { }
+#weather_datetime td { }
+.w_dt_line { }
+#date_time a { color:#EAD797; }
+.YMD { color:#FFF; }
+
+#mylog { border-right:none; }
+#mylog a { color:#D8CB9E; }
+#mylog b { color:#EAD797; }
+
+#search_hot_word a { color:#3981C3 !important; }
+#search_hot_word a.s_c { color:#5D81A3 !important; border:1px #5D81A3 solid; }
+#search_bar_in a { color:#C61903 !important; }
+#search_bar_in a span { text-decoration:none; color:#FCE4AA !important; }
+#search_bar_in a:hover {}
+#search_bar_in a:hover span { color:#FFFFFF !important; }
+
+
+#search_bar_in a#searchNavIs span { color:#FFFFFF !important; }
+.forQQ3 #search_bar_in a#searchNavIs { color:#E5CBBA !important; }
+.forQQ3 #search_bar_in a#searchNavIs span { color:#FF6600 !important; }
+.forQQ3 #search_bar_in a:hover { color:#E5CBBA !important; }
+.forQQ3 #search_bar_in a:hover span { color:#FF6600 !important; }
+
+
+#ou_in button { padding:0 3px !important; background-color:#EEEEEE !important; }
+#ou_in button#ou_in_is { color:#FF6600 !important; }

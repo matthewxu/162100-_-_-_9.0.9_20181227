@@ -1,0 +1,29 @@
+/* 通用 */
+
+#f {background-image:url(img_f.gif); background-repeat: no-repeat;/**/ }
+#search_bar_in a:hover { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-679px 0; }
+#search_bar_in a#searchNavIs span { background-image:url(img_f.gif); background-repeat: no-repeat; background-position:-623px 0; }
+
+#su2 { background:#FF9900 url(img_f.gif) -698px -92px no-repeat; }
+
+#new_top td.mode a { background:url(home.gif) -60px 50% no-repeat; }
+#new_top td.mode_is a { background:url(home.gif) 0 50% no-repeat; }
+#top_title_index { width:1000px; }
+/* 增强 */
+
+
+
+
+#logo { width:200px; }
+#search_ { width:790px; }
+.forQQ1 { margin-bottom:30px; float:left; }
+.forQQ_1 { height:98px; max-height:98px; width:230px; float:right; }
+.forQQ2 { margin-left:auto !important; margin-right:0 !important; }
+.forQQ_2 { }
+.forQQ3 { }
+.forQQ_3 { }
+
+.right{ float:left; }
+.left{ float:right; min-width:200px; }
+
+

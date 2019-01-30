@@ -1,0 +1,47 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+#让m.162100.com访问m目录 
+#RewriteCond %{HTTP_HOST} ^m.162100.com$ [NC]
+#RewriteCond %{REQUEST_URI} !^/m/
+#RewriteRule ^(.*)$ m/$1 [L]
+
+</IfModule>
+
+<IfModule mod_deflate.c>
+#压缩网页
+# Insert filters
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-httpd-php
+AddOutputFilterByType DEFLATE application/x-httpd-fastphp
+AddOutputFilterByType DEFLATE image/svg+xml
+# Drop problematic browsers
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+# Make sure proxies don't deliver the wrong content
+Header append Vary User-Agent env=!dont-vary
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive on
+#缓存首页及物件新方法
+<FilesMatch "(index\.html|\.(gif|jpg|jpeg|png|ico|swf|js|css))$">
+#ExpiresDefault "access plus 15 days"
+Header set Cache-Control "max-age=1296000,public"
+#Header unset Pragma
+#Header unset ETag
+#FileETag None
+</FilesMatch>
+</IfModule>
+
+ErrorDocument 404 /404.html

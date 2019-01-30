@@ -1,0 +1,2618 @@
+    * {
+        vertical-align: baseline;
+        font-weight: inherit;
+        font-family: SimSun, Arial;
+        font-style: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    
+    body {
+        font-size: 12px;
+        font-family: SimSun, Arial;
+    }
+    
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    img {
+        border: none;
+        text-decoration: none;
+        display: block;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: normal;
+        font-size: 12px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a img,
+    :link img,
+    :visited img {
+        border: 0;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    
+    * html .clearfix {
+        height: 1%;
+    }
+    
+    *+html .clearfix {
+        min-height: 1%;
+    }
+    
+    * html {
+        background-image: url(about:blank);
+        background-attachment: fixed;
+    }
+    /*ad*/
+    
+    .adFloatClose {
+        width: 77px;
+        height: 31px;
+        background: url("http://p1.ifengimg.com/ifeng/ifeng-index/20160122/floatadclose-z.gif") no-repeat scroll 0% 0% transparent;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+    }
+    
+    .adFloatDetail {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
+    
+    .adFloatPlay {
+        width: 25px;
+        height: 21px;
+        background: url("http://p1.ifengimg.com/ifeng/ifeng-index/20160122/floatadrplay.gif") no-repeat scroll center center transparent;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .adFloatMinClose {
+        width: 25px;
+        height: 20px;
+        background: url("http://p1.ifengimg.com/ifeng/ifeng-index/20160122/floatadclose.gif") no-repeat scroll center top transparent;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .floatBuoybig {
+        _top: expression(documentElement.scrollTop + 150 + "px");
+    }
+    
+    .floatBuoysmall {
+        _top: expression(documentElement.scrollTop + documentElement.clientHeight-150-50+'px');
+    }
+    
+    .Hover {
+        _top: expression(documentElement.scrollTop+documentElement.clientHeight-130+'px');
+    }
+    
+    .viewWindow {
+        _top: expression(documentElement.scrollTop+documentElement.clientHeight-300+'px');
+    }
+    
+    .Floatbig {
+        _top: expression(eval(document.documentElement.scrollTop));
+        _position: absolute;
+    }
+    
+    .Floatsmall {
+        _top: expression(documentElement.scrollTop+documentElement.clientHeight-201+'px');
+        _position: absolute;
+    }
+    
+    .FloatBottombig {
+        _top: expression(documentElement.scrollTop+documentElement.clientHeight-300+'px');
+    }
+    
+    .FloatBottomsmall {
+        _top: expression(documentElement.scrollTop+documentElement.clientHeight-30+'px');
+    }
+    /*main*/
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .wrap {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .BgNone {
+        border: none!important;
+        background: none!important;
+    }
+    .PlNone{padding-left:0!important;}
+    .strong {
+        font-weight: bold!important;
+    }
+    
+    .trans {
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-backface-visibility: hidden;
+    }
+    
+    .trans:hover {
+        transform: scale(1.04, 1.04);
+        -ms-transform: scale(1.04, 1.04);
+        -webkit-transform: scale(1.04, 1.04);
+    }
+    
+    h1 {
+        padding-left: 15px;
+        line-height: 28px;
+        height: 28px;
+    }
+    
+    h1 a {
+        font-family: SimHei;
+        font-size: 20px;
+        color: #004276;
+    }
+    
+    h1 a:hover {
+        color: #f54343;
+    }
+    
+    h2 {
+        line-height: 40px;
+        height: 40px;
+        padding-top: 8px;
+    }
+    
+    h2 a {
+        font-size: 16px;
+        font-weight: bold;
+        color: #004276;
+    }
+    
+    h3 {
+        height: 26px;
+        padding-left: 13px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -679px;
+        padding-top: 9px;
+    }
+    
+    h3 a {
+        line-height: 26px;
+        font-size: 14px;
+        color: #004276;
+        font-weight: bold;
+    }
+    
+    h4 a {
+        color: #004276;
+        line-height: 26px;
+        height: 26px;
+        display: block;
+    }
+    
+    h2 a:hover,
+    h3 a:hover,
+    h4 a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .Tit01 {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -1046px;
+        line-height: 38px;
+        padding-top: 18px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #2b2b2b;
+    }
+    
+    .pos01 {
+        position: relative;
+    }
+    .icon_new{ position: absolute; background:url(http://p1.ifengimg.com/a/2017/0619/icon_new.gif) no-repeat left center; width:22px; height:7px; top:29px; left:86px;}
+    .zhcy {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        _right: 30px;
+        _top: 20px;
+    }
+    
+    .Tit01 a {
+        font-size: 16px;
+        font-weight: bold;
+        color: #2b2b2b;
+    }
+    
+    .Tit02 {
+        line-height: 24px;
+        padding-top: 14px;
+    }
+    
+    .wxTit {
+        font-size: 14px;
+        color: #2B2B2B;
+    }
+    
+    .Tit02 a {
+        font-size: 14px;
+        color: #2B2B2B;
+    }
+    
+    .Tit02 span {
+        padding: 0 5px;
+    }
+    
+    .Tit03 {
+        width: 110px;
+        height: 27px;
+        text-align: center;
+        cursor: pointer;
+        float: left;
+    }
+    
+    .currentTab {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -1500px;
+    }
+    
+    .Tit03 a {
+        font-size: 14px;
+        color: #282828;
+        line-height: 28px;
+    }
+    
+    .Tit04 a {
+        color: #2b2b2b;
+    }
+    
+    .FNewLCon dl dt.Tit06 {
+        line-height: 30px;
+        margin-top: 10px;
+        height: 30px;
+    }
+    
+    .FNewLCon dl dt.Tit06 a {
+        color: #004276;
+        font-size: 14px;
+    }
+    
+    .FNewLCon dl dt.Tit06 a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    .videoIcon dt{background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -596px;padding-left:18px;}
+    .Tit01 a:hover,
+    .Tit02 a:hover,
+    .Tit03 a:hover,
+    .Tit04 a:hover {
+        color: #f54343;
+    }
+    /*logo*/
+    
+    .Log {
+        height: 66px;
+        _padding-bottom: 6px;
+    }
+    /*150819a*/
+    .Log{ position:relative;}
+    .donate{ position: absolute; top: 14px; right: 0;}
+    .donate2{ float: right;}
+    .LogImg {
+        padding: 10px 0 0 15px;
+    }
+    /*150819a*/
+    
+    .LogLis {
+        padding-top: 38px;
+    }
+    /*150819a*/
+    
+    .Login,
+    .LoginAfter,
+    .Home {
+        float: left;
+        padding: 5px 5px 0 12px;
+    }
+    
+    .Search,
+    .Home,
+    .Aifeng,
+    .register {
+        background: url(http://y1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) -500px 6px;
+    }/*170717a*/
+    
+    .Search {
+        padding: 1px 0 0 6px;
+    }
+    
+    .Login a,
+    .Search a,
+    .Home a {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat;
+        color: #333;
+        height: 16px;
+        padding: 4px 0 4px 20px;
+    }
+    /*20141211a*/
+    
+    .LogLis a:hover {
+        color: #f54343;
+    }
+    
+    .Login a {
+        background-position: 0 3px;
+    }
+    
+    .Search a {
+        background-position: -96px 4px;
+    }
+    
+    .Home a {
+        background-position: -200px 4px;
+    }
+    
+    .Home {
+        padding-left: 9px;
+    }
+    
+    .Aifeng {
+        padding: 5px 0 0 9px;
+    }
+    
+    .Aifeng a {
+        color: #333;
+        height: 16px;
+        padding: 4px 0 4px 18px;
+        background: url(http://p0.ifengimg.com/fe/www_ifeng_com/images/aIfeng_65353094.gif) no-repeat 0 4px;
+    }
+    
+    .Aifeng a:hover {
+        color: #f54343;
+    }
+    /*登陆后*/
+    
+    .LoginAfter {
+        position: relative;
+    }
+    
+    .welcome {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 3px;
+        height: 16px;
+        padding: 4px 0 4px 18px;
+    }
+    
+    .LoginAfter a {
+        color: #333;
+        height: 16px;
+        padding: 4px 0 4px 20px;
+    }
+    
+    .LoginAfterName span {
+        color: #004276;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat;
+        padding: 5px 15px;
+        background-position: 7px -195px;
+    }
+    /*20141211a*/
+    
+    .LoginAfterName:hover {
+        color: #f54343;
+        text-decoration: none;
+    }
+    
+    .LoginAfter a.logout {
+        color: #333;
+        background: none;
+        padding-left: 0;
+    }
+    
+    .logout:hover {
+        color: #f54343;
+    }
+    
+    .LoginAfter ul {
+        border: 1px solid #dedede;
+        position: absolute;
+        top: 22px;
+        right: 43px;
+        background: #fff;
+        padding: 0 12px;
+        display: none;
+        z-index: 99;
+    }
+    
+    .LoginAfter ul li {
+        float: none!important;
+        padding: 10px 0;
+        *padding: 11px 0;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -500px -67px;
+    }
+    
+    .LoginAfter ul li a {
+        padding: 10px 0;
+        background: none;
+    }
+    /*搜索*/
+    /*注册*/
+    .register{padding: 5px 5px 0 9px;}/*170717a*/
+    .register a {
+        background: url(http://p0.ifengimg.com/fe/www_ifeng_com/images/icon_register_00cce07c.gif) no-repeat 0 3px;
+        color: #333;
+        height: 16px;
+        padding: 4px 0 4px 18px;
+    }/*170717a*/
+    
+    .searchBtn {
+        line-height: 22px;
+        margin: 0 5px 0 0;
+        padding: 4px 4px 4px 23px;
+        width: 24px;
+        height: 14px;
+    }
+    
+    .navFind {
+        width: 378px;
+        padding: 0 0 0 2px;
+        position: relative;
+        z-index: 80;
+        margin-right: 0;
+        background: url(http://p2.ifengimg.com/a/2015/0708/textSearch.gif) no-repeat 0 1px;
+        _padding-bottom: 3px;
+    }
+    
+    .navFind span {
+        float: left;
+        cursor: pointer;
+    }
+    
+    .navFind .text {
+        width: 239px;
+        height: 17px;
+        *height: 16px;
+        _height: 16px;
+        line-height: 17px;
+        *line-height: 16px;
+        _line-height: 16px;
+        padding: 1px 0 0 4px;
+        margin-top: 2px;
+        background: #fff;
+        border: none;
+        color: #646464;
+        font-size: 12px
+    }
+    
+    #searchFormOption {
+        position: relative;
+        float: left;
+        z-index: 80
+    }
+    
+    .sel {
+        width: 46px;
+        height: 18px;
+        line-height: 18px;
+        margin: 1px 9px 0 1px;
+        padding: 1px 0 0 14px;
+        _padding: 2px 0 0 14px;
+        border: none;
+        font-size: 12px;
+        color: #646464;
+    }
+    
+    .sel_hover {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -356px 7px;
+    }
+    
+    #loginFldselectop {
+        position: absolute;
+        border: 1px solid #DFDFDF;
+        top: 20px;
+        left: 0;
+        width: 60px;
+        background: #fff;
+        z-index: 99;
+        padding: 2px 0 8px;
+        height: 130px;
+    }
+    
+    #loginFldselectop li {
+        padding: 0;
+        float: none;
+    }
+    
+    #loginFldselectop li a {
+        color: #000000;
+        padding-left: 13px;
+        width: 32px;
+        display: block;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -686px -100px;
+        padding: 7px 14px 4px;
+        cursor: pointer;
+    }
+    
+    #loginFldselectop li a:hover {
+        color: #f54343;
+    }
+    
+    #ra1 a {
+        background: none!important;
+    }
+    
+    .navFind .button,
+    .navFind .button_hover {
+        width: 35px;
+        height: 20px;
+        line-height: 20px;
+        cursor: pointer;
+        margin-top: 1px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -1700px;
+        font-size: 12px;
+        border: none;
+    }
+    
+    .navFind .button_hover {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -100px -1700px;
+    }
+    
+    .srhClose {
+        width: 10px;
+        height: 10px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -200px -1700px;
+        float: right;
+        margin: 6px 10px 0;
+        cursor: pointer;
+    }
+    /*Nav main*/
+    
+    .NavM {
+        width: 100%;
+        background: #F54343;
+    }
+    /*20150707a*/
+    
+    .NavMCon {
+        height: 40px;
+    }
+    
+    .NavMCon ul li {
+        height: 29px;
+        float: left;
+        padding: 11px 9px 0 12px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -100px;
+    }/*170717a*/
+    /*160420a*/
+    
+    .NavMCon ul li a {
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    .NavMCon ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .NavMCon ul li.TV {
+        padding: 11px 0px 0 12px;
+    }
+    /*151111a*/
+    
+    .NavMCon ul li.PTV {
+        padding: 12px 0px 0 8px;
+        height: 28px
+    }/*170717a*/
+    /*160520a*/
+    
+    .NavMCon ul li.TV a {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -300px -212px;
+        display: block;
+        padding-left: 24px;
+    }
+    /*20150707a*/
+    
+    .NavMCon ul li.PTV a {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160520/spritesize47_w1000_h2000.png) no-repeat -465px -214px;
+        display: block;
+        padding-left: 23px;
+        font-family: Arial;
+        font-size: 14px
+    }
+    /*160520a*/
+    /*Nav vice*/
+    
+    .NavV ul {
+        padding-left: 5px;
+    }
+    
+    .NavV ul li {
+        float: left;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -300px -88px;
+        width: 43px;
+        height: 38px;
+        text-align: center;
+        line-height: 38px;
+    }
+    
+    .NavV ul li a {
+        font-size: 14px;
+        color: #2b2b2b;
+    }
+    
+    .NavV ul li a:hover {
+        color: #f54343;
+    }
+    /*广告advertisement*/
+    
+    .Avt01 {
+        width: 1000px;
+        margin: 0 auto;
+        background: #F1F1F1;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        overflow: hidden;
+    }
+    
+    .Avt01Pic {
+        width: 1000px;
+        overflow: hidden;
+    }
+    
+    .Avt01Lis {
+        width: 980px;
+        overflow: hidden;
+        padding-left: 10px;
+    }
+    
+    .Avt01 ul {
+        width: 1050px;
+        padding: 6px 0 5px;
+    }
+    
+    .Avt01 ul li {
+        float: left;
+        width: 145px;
+        line-height: 22px;
+        height: 22px;
+    }
+    
+    .Avt01 ul li a {
+        color: #6B8295;
+    }
+    
+    .Avt01 ul li a:hover {
+        text-decoration: underline;
+    }
+    /*推荐recommend*/
+    
+    .Rec {
+        height: 58px;
+        padding-top: 20px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -405px;
+    }
+    
+    .Rec ul {
+        float: left;
+    }
+    
+    .Rec ul li {
+        width: 250px;
+        float: left;
+    }
+    
+    .RecPic {
+        width: 50px;
+        height: 58px;
+        position: relative;
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .RecPicBor {
+        width: 50px;
+        height: 58px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -500px;
+        _background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/sprite.gif) no-repeat 0 -500px;
+    }
+    
+    .RecCon {
+        float: left;
+    }
+    
+    .VideoLis a {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -594px;
+        padding-left: 18px;
+    }
+    /*要闻*/
+    /*要闻L*/
+    
+    .FNewL {
+        width: 220px;
+        padding-top: 8px;
+    }
+    
+    .FNewLBox {
+        width: 188px;
+        border: 1px solid #dedede;
+        padding: 1px 15px 2px;
+    }
+    /*170303a*/
+    
+    .FNewLCon {
+        border-top: 1px solid #dedede;
+        padding-bottom: 13px;
+    }
+    
+    .FNewLCon dl {
+        margin-top: 4px;
+    }
+    .FNewLCon dl.videoIcon3{ margin-top:0;}
+    .FNewLCon dl dt.video{background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -595px;padding-left:18px;}
+
+    
+    .FNewLCon dl dd {
+        color: #838383;
+        line-height: 20px;
+        padding: 4px 0 6px;
+        height: 60px;
+        overflow: hidden;
+        display: block;
+    }
+    
+    .FNewLCon dl dd.ddh40 {
+        height: 40px;
+    }
+    
+    .FNewLConPic {
+        margin-top: 4px;
+        margin-right: 10px;
+        width: 52px;
+        height: 52px;
+        overflow: hidden;
+    }
+    
+    .FNewLCon dl dt {
+        line-height: 24px;
+        height: 24px;
+    }
+    
+    .FNewLCon dl dt a {
+        color: #004276;
+    }
+    
+    .FNewLCon dl dt a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .FNewLCon dl dt em {
+        padding: 0 4px;
+        font-style: normal;
+    }
+    
+    .FNewLAvt {
+        width: 220px;
+        height: 250px;
+        margin-top: 28px;
+        overflow: hidden;
+    }
+    /*要闻M*/
+    
+    .FNewRBox {
+        width: 756px;
+    }
+    
+    .FNewM {
+        width: 366px;
+    }
+    
+    .FNewMTop {
+        padding-top: 18px;
+        position: relative;
+    }
+    
+    .FNewMTop .Tit02 {
+        padding-left: 19px;
+        padding-top: 6px;
+        padding-bottom: 4px;
+    }
+    
+    .FNewMTop .Tit02 a {
+        font-size: 12px;
+    }
+    
+    .FNewMTopLis {
+        margin-top: 4px;
+    }
+    
+    .FNewMTop ul li {
+        padding-left: 19px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 6px -687px;
+        height: 28px;
+    }
+    
+    .FNewMTop ul li a {
+        line-height: 28px;
+        font-size: 14px;
+        color: #004276;
+    }
+    
+    .FNewMTop ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .FNewMTop ul li.topNews{background: none; padding-left:0;}
+    .FNewMTop ul li.topNews h1 a{height: 28px;line-height: 28px;font-size: 20px; font-family: SimHei;}
+    .FNewMTop ul li.bold{ font-weight: bold;}
+    .FNewMTop ul li.video{background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -593px;padding-left: 19px;}
+    .FNewMTop ul.VideoUl li {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -593px;
+        padding-left: 19px;
+    }
+    
+    .FNewLis a {
+        float: left;
+    }
+    
+    .FNewLisRtab {
+        position: absolute;
+        right: 0;
+        top: 29px;
+    }
+    
+    .FNewLis a.zixunhome {
+        float: right;
+    }
+    
+    .FNewMBom {
+        padding-left: 6px;
+        padding-top: 12px;
+        border-top: 1px solid #dedede;
+        width: 360px;
+        height: 138px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    
+    .FNewMBom .FNewMBomTilte {
+        overflow: hidden;
+        *zoom: 1;
+        width: 366px
+    }
+    
+    .FNewMBom .Tit02 {
+        float: left;
+        padding-left: 13px;
+        padding-bottom: 3px;
+        line-height: 22px;
+        padding-top: 0;
+    }
+    
+    .FNewMBomList {
+        left: 6px;
+        height: 112px;
+        width: 366px;
+        overflow: hidden;
+        *zoom: 1;
+    }
+    
+    .FNewMBomList .FNewMBomCon {
+        width: 732px;
+        height: 112px;
+        overflow: hidden;
+        *zoom: 1;
+    }
+    
+    .FNewMBomList ul {
+        float: left;
+        margin-left: 0;
+        width: 366px;
+    }
+    
+    .FNewMBomList ul li {
+        height: 28px;
+        padding-left: 13px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -687px;
+    }
+    
+    .FNewMBomList ul li a {
+        line-height: 28px;
+        font-size: 14px;
+        color: #004276;
+    }
+    
+    .FNewMBomList ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    #buttons {
+        float: left;
+        height: 6px;
+        width: 42px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    
+    #buttons span {
+        cursor: pointer;
+        float: left;
+        width: 6px;
+        height: 6px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -400px -800px;
+        margin-right: 7px;
+    }
+    
+    #buttons .on {
+        background-position: -500px -800px;
+    }
+    
+    .arrow01 {
+        cursor: pointer;
+        display: block;
+        width: 14px;
+        height: 14px;
+        float: left;
+        z-index: 2;
+        margin-top: 4px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat;
+    }
+    
+    #prev01 {
+        left: 87px;
+        background-position: 0 -800px;
+        margin-left: 10px
+    }
+    
+    #prev01:hover {
+        background-position: -200px -800px;
+    }
+    
+    #next01 {
+        right: 172px;
+        background-position: -100px -800px;
+    }
+    
+    #next01:hover {
+        background-position: -300px -800px;
+    }
+    /*live*/
+    
+    .FNewMBomList2 {
+        left: 6px;
+        height: 112px;
+        width: 366px;
+        overflow: hidden;
+        *zoom: 1;
+    }
+    
+    .FNewMBomList2 .FNewMBomCon {
+        width: 732px;
+        height: 112px;
+        overflow: hidden;
+        *zoom: 1;
+    }
+    
+    .FNewMBomList2 ul {
+        float: left;
+        margin-left: 0;
+        width: 366px;
+    }
+    
+    .FNewMBomList2 ul li {
+        float: left;
+        width: 157px;
+        position: relative;
+        margin: 0 7px 0 13px;
+        padding-top: 4px;
+        display: inline;
+    }
+    
+    .FNewMBomList2 ul li a {
+        color: #004276;
+    }
+    
+    .FNewMBomList2 ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .FNewMBomList2 ul li span {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        background: #f54343;
+        color: #fff;
+        line-height: 18px;
+        height: 18px;
+        padding: 0 7px;
+    }
+    
+    .FNewMBomList2 ul li span.back {
+        background: #999;
+        padding: 0 12px;
+    }
+    
+    .liveImg {
+        width: 157px;
+        height: 71px;
+        overflow: hidden;
+    }
+    
+    .liveImg img {
+        width: 157px;
+        height: 71px;
+    }
+    
+    .liveTxt {
+        line-height: 16px;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    
+    .FNewMBomList2 ul li.spe {
+        height: 28px;
+        padding-left: 13px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -687px;
+    }
+    
+    .FNewMBomList2 ul li.spe a {
+        line-height: 28px;
+        font-size: 14px;
+        color: #004276;
+    }
+    
+    #js_recm_last li a {
+        font-size: 14px;
+    }
+    /*live end*/
+    /*要闻R*/
+    
+    .FNewR {
+        width: 360px;
+    }
+    
+    .FosPic {
+        width: 360px;
+        height: 249px;
+        margin-top: 24px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .FosPicMenu {
+        width: 360px;
+        height: 30px/*0818a*/
+        ;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -1600px;
+    }
+    
+    .FosPicMenu ul {
+        width: 370px;
+    }
+    
+    .FosPicMenu ul li {
+        float: left;
+        line-height: 30px/*0818a*/
+        ;
+        height: 30px/*0818a*/
+        ;
+    }
+    
+    .FosPicMenu ul li a {
+        color: #333;
+        padding: 0 8px;
+        width: 24px;
+        display: block;
+    }
+    
+    .FosPicMenu ul li.FosPicCur a {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -500px -1600px;
+        width: 25px;
+        color: #fff;
+        display: block;
+        padding: 0 8px;
+    }
+    
+    .FosPicMenu ul li.current a {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -500px -1600px;
+        width: 25px;
+        color: #fff;
+        display: block;
+        padding: 0 8px;
+    }
+    
+    .FosPicCon {
+        width: 360px;
+        height: 220px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .FosPicCon ul li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 360px;
+        height: 220px;
+        z-index: 0;
+    }
+    
+    .FosPicConTxtBg {
+        width: 360px;
+        height: 32px;
+        background: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        position: absolute;
+        top: 188px;
+        left: 0;
+    }
+    
+    .FosPicConTxt {
+        width: 360px;
+        height: 32px;
+        line-height: 32px;
+        _line-height: 34px;
+        position: absolute;
+        top: 188px;
+        left: 0;
+        color: #fff;
+        text-indent: 10px;
+    }
+    
+    .FosPicConTxt a {
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .FosPicConTxt a:hover {
+        text-decoration: underline;
+    }
+    
+    .arrow {
+        cursor: pointer;
+        display: none;
+        _display: block;
+        line-height: 24px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        z-index: 2;
+        top: 126px;
+        background-color: RGBA(0, 0, 0, .3);
+        color: #fff;
+    }
+    
+    .arrow:hover {
+        background-color: RGBA(0, 0, 0, .7);
+    }
+    
+    #FosPic:hover .arrow {
+        display: block;
+    }
+    
+    #prev {
+        left: 8px;
+    }
+    
+    #next {
+        right: 8px;
+    }
+    
+    .FNewVid .Tit02 {
+        border-bottom: 1px solid #dedede;
+        line-height: 34px;
+        height: 34px;
+    }
+    
+    .FNewVidTitImg {
+        padding-top: 6px;
+    }
+    
+    .FNewVidCon {
+        margin-bottom: 4px;
+    }
+    
+    .FVCPic {
+        position: relative;
+        width: 120px;
+        height: 92px;
+
+        margin-top: 7px;
+        _margin-top: 6px;
+        margin-right: 14px;
+        _margin-right: 10px;
+        overflow: hidden;
+    }
+    
+    .FVCPicBtn {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) 0 -900px;
+        _background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/sprite.gif) 0 -900px;
+        position: absolute;
+        top: 44px;
+        left: 95px;
+        width: 20px;
+        height: 21px;
+    }
+    
+    .FVCPicBtn a {
+        width: 20px;
+        height: 21px;
+        display: block;
+    }
+    
+    .FVCPicTxtBg {
+        width: 120px;
+        height: 22px;
+        background: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+    
+    .FVCPicTxt {
+        width: 110px;
+        height: 22px;
+        line-height: 22px;
+        _line-height: 24px;
+        text-align: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        padding: 0 5px;
+        overflow: hidden;
+    }
+    
+    .FVCPicTxt a {
+        color: #fff;
+    }
+    
+    .FVCPicTxt a:hover {
+        text-decoration: underline;
+    }
+    .FVCTxt li span,.FVCTxt li span a{ color:#f54343;}
+    .FVCTxt li span{background: url(http://p0.ifengimg.com/fe/www_ifeng_com/images/iconLine_e0d0986c.gif) no-repeat right center;padding-right:13px;}
+    
+    .FVCTxt li a {
+        font-size: 14px;
+        color: #004276;
+        line-height: 26px;
+    }
+    
+    .FVCTxt li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .FNewVidLis {
+        padding-top: 5px;
+        _padding-top: 3px;
+        *padding-top: 3px;
+    }
+    
+    .FNewVidLis ul li {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -593px;
+        padding-left: 18px;
+        height: 28px;
+    }
+    
+    .FNewVidLis ul li a {
+        line-height: 28px;
+        font-size: 14px;
+        color: #004276;
+    }
+
+   .FNewVidLis ul li span,.FNewVidLis ul li span a{ color:#f54343;}
+   .FNewVidLis ul li span{background: url(http://p0.ifengimg.com/fe/www_ifeng_com/images/iconLine_e0d0986c.gif) no-repeat right center;padding-right:13px;}
+    
+    .FNewVidLis ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .FNewRAvtLisBox {
+        margin-left: 6px;
+        margin-top: 12px;
+    }
+    
+    .FNewRAvtLis {
+        width: 318px;
+        height: 65px;
+        border: 1px solid #e6e6e6;
+        padding: 5px 20px 1px;
+        overflow: hidden;
+    }
+    /*160831a*/
+    
+    .FNewRAvtLis ul li {
+        height: 26px;
+    }
+    /*160831a*/
+    
+    .FNewRAvtLis ul li a {
+        line-height: 26px;
+        font-size: 14px;
+        color: #004276;
+    }
+    /*160831a*/
+    
+    .FNewRAvtLis ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .FNewRAvt {
+        padding-left: 6px;
+        width: 750px;
+        height: 90px;
+        margin-top: 28px;
+        _margin-top: 29px;
+        overflow: hidden;
+    }
+    /*财经*/
+    
+    .ColALBox {
+        width: 220px;
+        float: left;
+    }
+    
+    .ColARBox,
+    .ColCRBox {
+        width: 735px;
+        float: right;
+    }
+    
+    .ColAM {
+        width: 360px;
+        float: left;
+    }
+    
+    .ColAR {
+        width: 360px;
+        float: right;
+    }
+    
+    .ColALBox .Tit02 {
+        border-bottom: 2px solid #999;
+        line-height: 28px;
+        padding-top: 25px;
+        _padding-top: 26px;
+        *padding-top: 26px;
+    }
+    
+    .ColALTop {
+        width: 208px;
+        height: 65px;
+        background: #F6F6F6;
+        padding: 10px 0 0 12px;
+    }
+    
+    .ColALTopL a {
+        font-family: Arial;
+        color: #f54343;
+    }
+    
+    .ColALTopL a:hover {
+        color: #f54343;
+    }
+    
+    .ColALTopL a b {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .ColALTopL a span {
+        font-size: 22px;
+    }
+    
+    .ColALTopL p {
+        color: #999;
+        line-height: 20px;
+    }
+    
+    .ColALTopR {
+        border-left: 1px solid #e6e6e6;
+        padding-left: 20px;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    
+    .ColALTopR a {
+        border: 1px solid #e6e6e6;
+        font-size: 14px;
+        color: #004276;
+        width: 71px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        display: block;
+    }
+    
+    .ColALTopR a:hover {
+        border: 1px solid #f54343;
+        color: #f54343;
+    }
+    
+    .ColALLis {
+        padding: 14px 0 22px;
+    }
+    
+    .ColALLis ul li {
+        line-height: 24px;
+        height: 24px;
+    }
+    
+    .ColALLis ul li a {
+        float: left;
+        color: #004276;
+        margin-right: 10px;
+    }
+    /*20150331a*/
+    
+    .ColALLis ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .ColALLis ul li span {
+        color: #666;
+    }
+    
+    .ColALAvt {
+        width: 220px;
+        height: 180px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .ColALAvt a {
+        color: #FFF;
+    }
+    
+    .ColALAvt a:hover {
+        color: #FFF;
+        text-decoration: underline;
+    }
+    
+    .ColALAvtTitBg {
+        background: #225bb4;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        width: 55px;
+        height: 22px;
+        position: absolute;
+        top: 120px;
+        left: 0;
+    }
+    
+    .ColALAvtTit {
+        width: 55px;
+        height: 22px;
+        line-height: 22px;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        text-indent: 10px;
+    }
+    
+    .ColALAvtPBg {
+        background: #333;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        width: 187px;
+        height: 22px;
+        position: absolute;
+        top: 143px;
+        left: 0;
+    }
+    
+    .ColALAvtP {
+        width: 187px;
+        height: 22px;
+        line-height: 22px;
+        position: absolute;
+        top: 143px;
+        left: 0;
+        text-indent: 10px;
+    }
+    
+    .ColAMCon ul li {
+        height: 26px;
+        padding-left: 13px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -687px;
+    }
+    .ColAMCon ul li.video,.ColAMCon h3.video{background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -595px;padding-left:18px;margin-left:-4px;}
+    .ColAMCon h3.video{ background-position:0 -586px;}
+    .ColAMCon ul li a {
+        line-height: 26px;
+        font-size: 14px;
+        color: #004276;
+    }
+    
+    .ColAMCon ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    .vTab a.currentTab{color: #f54343;}
+    .vTab a.Tit03{width:auto; height:auto; background:none; float:none;}
+    #vTabCon2 li{background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -595px;padding-left:18px; margin-left: -5px;}
+    .vTab .FVCPicBtn{ left:145px; top:70px;}
+    
+    .FNewRAvtLisBox02 {
+        margin-top: 16px;
+    }
+    
+    .ColARPic {
+        position: relative;
+        width: 120px;
+        height: 118px;
+        margin-top: 7px;
+        _margin-top: 6px;
+        margin-right: 14px;
+        _margin-right: 10px;
+        overflow: hidden;
+    }
+    
+    .ColARPic img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .ColARPicTxtBg {
+        width: 120px;
+        height: 22px;
+        background: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        position: absolute;
+        top: 96px;
+        left: 0;
+    }
+    
+    .ColARPicTxt {
+        width: 110px;
+        height: 22px;
+        line-height: 22px;
+        _line-height: 24px;
+        text-align: center;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        padding: 0 5px;
+        overflow: hidden;
+    }
+    
+    .ColARPicTxt a {
+        color: #fff;
+    }
+    
+    .ColARPicTxt a:hover {
+        text-decoration: underline;
+    }
+    
+    .ColARTxt ul li a {
+        font-size: 14px;
+        color: #004276;
+        line-height: 26px;
+    }
+    .ColARTxt ul li.video{background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -595px;padding-left:18px;}
+    .ColARTxt ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .FVCTxt,
+    .ColARTxt {
+        width: 226px;
+    }
+    
+    .jrTit {
+        background: url(http://p2.ifengimg.com/a/2015/0326/2109aa5c36b4ce7.gif) 0px 54px no-repeat;
+        line-height: 40px;
+        padding-top: 18px;
+    }
+    
+    .jrTit a {
+        font-size: 14px;
+        color: #666;
+        line-height: 40px;
+    }
+    
+    .jrTit span {
+        margin: 0 5px;
+        font-size: 14px;
+        color: #666;
+        float: left;
+    }
+    
+    .jrTit .Tit03 {
+        width: 56px;
+        height: 42px;
+        text-align: inherit;
+        cursor: pointer;
+        float: left;
+    }
+    
+    .jrTit .currentTab {
+        background: url(http://p2.ifengimg.com/a/2015/0326/506b47de2767df7.gif) center bottom no-repeat;
+    }
+    
+    .jrTit .currentTab a {
+        color: #2B2B2B;
+    }
+    
+    .fhjrTit {
+        font-family: Microsoft YaHei;
+        font-size: 12px;
+        color: #999;
+        line-height: 34px;
+        margin-top: 7px;
+        _margin-top: 9px;
+        *margin-top: 9px;
+    }
+    
+    .fhjrTit a {
+        font-family: Microsoft YaHei;
+        font-size: 12px;
+        color: #999;
+        margin: 0 5px;
+    }
+    
+    .fhjrTit span {
+        margin-right: 10px;
+    }
+    /*20150331a*/
+    
+    .fhjrTit span a {
+        font-family: Microsoft YaHei;
+        font-size: 18px;
+        color: #2B2B2B!important;
+    }
+    /*20150331a*/
+    
+    .szzs {
+        margin-top: 16px;
+    }
+    
+    .szzs1 {
+        font-family: Arial;
+        font-size: 20px;
+        color: #f54343;
+        padding: 11px 0 7px;
+    }
+    /*20150707a*/
+    
+    .szzs2 {
+        font-family: Arial;
+        font-size: 12px;
+        color: #f54343;
+    }
+    /*20150707a*/
+    
+    .szzs3 {
+        font-family: Arial;
+        font-size: 20px;
+        color: #017f01;
+        padding: 11px 0 7px;
+    }
+    
+    .szzs4 {
+        font-family: Arial;
+        font-size: 12px;
+        color: #017f01;
+    }
+    
+    .jrss {
+        margin-top: 12px;
+    }
+    
+    .jrss input {
+        color: #a0a0a0;
+        border: 1px solid #e6e6e6;
+        width: 96px;
+        height: 19px;
+        text-indent: 5px;
+        line-height: 20px;
+        float: left;
+    }
+    
+    .jrss .jrssBtn1 {
+        width: 56px;
+        height: 21px;
+        border: 1px solid #e6e6e6;
+        border-left: none;
+        background: #f6f6f6;
+        float: left;
+        line-height: 19px;
+        text-align: center;
+        color: #004276;
+        cursor: pointer;
+    }
+    
+    .jrss .jrssBtn2 {
+        width: 58px;
+        height: 19px;
+        border: 1px solid #e6e6e6;
+        background: #f6f6f6;
+        display: block;
+        float: left;
+        line-height: 19px;
+        text-align: center;
+        color: #004276;
+        margin-left: 2px;
+        cursor: pointer;
+    }
+    
+    #szzs_dom_op a {
+        color: #000!important;
+    }
+    /*20150331a*/
+    /*汽车*/
+    
+    .ColBL .Tit02 {
+        border-bottom: 2px solid #999;
+        line-height: 28px;
+        padding-top: 25px;
+    }
+    
+    .ColBLLis {
+        width: 220px;
+        overflow: hidden;
+        padding: 14px 0 8px;
+    }
+    
+    .ColBLLis ul {
+        width: 240px;
+    }
+    
+    .ColBLLis ul li {
+        float: left;
+        width: 57px;
+        line-height: 24px;
+        height: 24px;
+    }
+    
+    .ColBLLis ul li a {
+        color: #004276;
+    }
+    
+    .ColBLLis ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .ColBLPic {
+        width: 220px;
+        overflow: hidden;
+    }
+    
+    .ColBLPic ul {
+        width: 240px;
+    }
+    
+    .ColBLPic ul li {
+        width: 56px;
+        float: left;
+        padding-bottom: 4px;
+    }
+    
+    .ColBLPic ul li a {
+        width: 49px;
+        height: 29px;
+        border: 1px solid #dfdfdf;
+        display: block;
+    }
+    
+    .ColBLPic ul li a:hover {
+        border: 1px solid #e90500;
+    }
+    
+    .ColBLPic ul li p {
+        color: #6c6c6c;
+        text-align: center;
+        line-height: 20px;
+    }
+    
+    .ColBLBtn {
+        margin-top: 4px;
+        margin-bottom: 12px;
+    }
+    
+    .ColBLBtn a {
+        color: #004276;
+        line-height: 21px;
+    }
+    
+    .ColBLBtn a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .ColBLBtn01 {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -1200px;
+        width: 79px;
+        height: 21px;
+        padding-left: 28px;
+    }
+    
+    .ColBLBtn02 {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -200px -1200px;
+        width: 79px;
+        height: 21px;
+        padding-left: 28px;
+    }
+    
+    .ColBLAvt {
+        width: 220px;
+        height: 350px;
+        overflow: hidden;
+    }
+    
+    .ColBRAvt {
+        width: 750px;
+        height: 90px;
+        margin-top: 33px;
+        overflow: hidden;
+    }
+    /*娱乐*/
+    
+    .FNewLConPic02 {
+        width: 75px;
+        height: 52px;
+        margin-top: 4px;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    
+    .ColCTab {
+        width: 220px;
+        height: 118px;
+        border-bottom: 1px solid #dedede;
+    }
+    
+    .ColCTabTit {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -200px -1500px;
+    }
+    
+    .ColCTabCon {
+        padding-top: 10px;
+        display: none;
+    }
+    
+    .ColCTabCon.block {
+        display: block;
+    }
+    
+    .ColCTabConPicBox {
+        float: left;
+        margin: 6px 10px 0 0;
+        width: 75px;
+        height: 60px;
+        overflow: hidden;
+    }
+    
+    .ColCTabCon img {}
+    
+    .ColCTabCon ul li {
+        height: 24px;
+    }
+    
+    .ColCTabCon ul li a {
+        color: #004276;
+        line-height: 24px;
+    }
+    
+    .ColCTabCon ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .ColCMPic {
+        position: relative;
+        width: 170px;
+        height: 118px;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    
+    .ColCMPic img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .ColCMPicTxtBg {
+        width: 170px;
+        height: 22px;
+        background: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        position: absolute;
+        top: 96px;
+        left: 0;
+    }
+    
+    .ColCMPicTxt {
+        width: 160px;
+        height: 22px;
+        line-height: 22px;
+        _line-height: 24px;
+        text-align: center;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        padding: 0 5px;
+        overflow: hidden;
+    }
+    
+    .ColCMPicTxt a {
+        color: #fff;
+    }
+    
+    .ColCMPicTxt a:hover {
+        text-decoration: underline;
+    }
+    /*体育*/
+    
+    .ColDLAvt {
+        height: 510px;
+        padding-top: 28px;
+        _padding-top: 28px;
+        *padding-top: 28px;
+        overflow: hidden;
+    }
+    
+    .ColDRAvt {
+        width: 750px;
+        height: 90px;
+        margin-top: 23px;
+        overflow: hidden;
+    }
+    /*房产*/
+    
+    .ColELAvt {
+        width: 220px;
+        height: 350px;
+        margin-top: 6px;
+        _margin-top: 8px;
+        padding-top: 3px;
+        overflow: hidden;
+    }
+    /*时尚*/
+    
+    .ColFLAvt {
+        width: 220px;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 11px;
+        _margin-top: 13px;
+    }
+    /*科技*/
+    
+    .ColGLAvt {
+        width: 220px;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 13px;
+        _margin-top: 15px;
+    }
+    /*纪实*/
+    
+    .ColGLCon p {
+        font-size: 14px;
+        color: #333;
+        line-height: 32px;
+        margin-top: 12px;
+    }
+    
+    .ColGLCon02 {
+        margin-top: 14px;
+        _margin-top: 15px;
+    }
+    
+    .ColGLCon ul li {
+        line-height: 24px;
+        height: 24px;
+    }
+    
+    .ColGLCon02 ul li {
+        line-height: 22px;
+        height: 22px;
+    }
+    
+    .ColGLCon ul li a {
+        color: #004276;
+    }
+    
+    .ColGLCon ul li a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    /*广告advertisement*/
+    
+    .Avt02 {
+        width: 1000px;
+        margin: 0 auto;
+        border: 1px solid #dedede;
+        overflow: hidden;
+        margin-top: 25px;
+        padding: 10px 0;
+    }
+    
+    .Avt02 ul li {
+        line-height: 22px;
+        height: 22px;
+    }
+    
+    .Avt02 ul li a {
+        color: #6B8295;
+    }
+    
+    .Avt02 ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .Avt02ul01 {
+        width: 110px;
+        padding: 0 17px 0 19px;
+    }
+    
+    .Avt02ul02 {
+        width: 854px;
+        float: right;
+    }
+    
+    .Avt02ul02 li {
+        float: left;
+        width: 110px;
+        padding: 0 16px;
+    }
+    /*广告advertisement*/
+    
+    .Avt03 {
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    /*页尾*/
+    
+    .Footer {
+        margin-top: 18px;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    
+    .City {
+        color: #666;
+        border-bottom: 2px solid #f54343;
+        line-height: 32px;
+    }
+    
+    .City a {
+        color: #666;
+    }
+    
+    .City a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .City .Tit04 {
+        float: left;
+    }
+    
+    .City p {
+        float: right;
+    }
+    
+    .City p span {
+        padding: 0 6px;
+    }
+    
+    .Intro {
+        color: #666;
+        line-height: 32px;
+    }
+    
+    .Intro a {
+        color: #666;
+    }
+    
+    .Intro a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .Intro .Tit04 {
+        float: left;
+    }
+    
+    .Intro p {
+        float: right;
+    }
+    
+    .Intro p span {
+        padding: 0 9px;
+    }
+    
+    .Intro p em {
+        padding: 0 6px;
+    }
+    
+    .Copr {
+        color: #999;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+    
+    .Copr a {
+        color: #999;
+        padding-right: 8px;
+    }
+    
+    .Copr a:hover {
+        color: #f54343;
+        text-decoration: underline;
+    }
+    
+    .Copr span {
+        padding: 0 8px;
+    }
+    
+    .Org {
+        margin-top: 22px;
+    }
+    
+    .Org a {
+        width: 65px;
+        height: 40px;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat;
+        display: block;
+        color: #000;
+        line-height: 16px;
+        padding: 10px 0 0 45px;
+        border: 1px solid #d2d2d2;
+        margin-right: 14px;
+        float: left;
+        text-align: left;
+    }
+    
+    .Org a:hover span {
+        text-decoration: underline;
+        color: #f54343;
+    }
+    
+    .Org a.Org01 {
+        background-position: -9px -1300px;
+    }
+    
+    .Org a.Org02 {
+        background: #fff;
+        padding: 10px 0 0 10px;
+        width: 82px;
+    }
+    
+    .Org a.Org03 {
+        background-position: -203px -1300px;
+        padding: 10px 0 0 52px;
+    }
+    
+    .Org a.Org04 {
+        background-position: -410px -1300px;
+        padding: 10px 0 0 50px;
+        width: 54px;
+    }
+    
+    .Org a.Org05 {
+        background-position: -607px -1300px;
+    }
+    
+    .Org a.Org06 {
+        background-position: -806px -1294px;
+        padding: 1px 0 0 48px;
+        height: 49px;
+    }
+    
+    .Org a.Org07 {
+        background-position: 0px -1400px;
+        color: #FFF;
+        padding: 10px 0 0 68px;
+        width: 52px;
+    }
+    
+    .Org a.Org08 {
+        background: url(http://p1.ifengimg.com/a/2015/1225/logo.gif) no-repeat 6px 6px;
+        padding: 10px 0 0 55px;
+        margin-right: 0;
+    }
+    
+    .Org a.Org09 {
+        background: url(http://p1.ifengimg.com/a/2016/05241/s/ifeng/logo_wlwhjydw.gif) no-repeat 6px 6px;
+        padding: 10px 0 0 55px;
+        margin-right: 0;
+    }
+    /*160523a*/
+    /*左侧三个搜索*/
+    
+    .pdb8 {
+        padding-bottom: 8px;
+    }
+    
+    .sear01,
+    .sear03 {
+        width: 218px;
+        height: 20px;
+        padding: 0 0 22px 2px;
+        position: relative;
+        z-index: 80;
+        margin-right: 0;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat 0 -1900px;
+    }
+    
+    .sear03 {
+        padding: 0 0 15px 2px;
+        *padding: 0 0 0 2px;
+        *margin-bottom: 7px;
+    }
+    
+    .sear01 span,
+    .sear03 span {
+        float: left;
+        cursor: pointer;
+    }
+    
+    .sear01 .text,
+    .sear03 .text {
+        width: 136px;
+        height: 16px;
+        *height: 16px;
+        _height: 16px;
+        line-height: 16px;
+        *line-height: 16px;
+        _line-height: 16px;
+        padding: 0 0 0 4px;
+        margin-top: 2px;
+        background: #fff;
+        border: none;
+        color: #646464;
+        font-size: 12px
+    }
+    
+    #sear01form,
+    #sear03form {
+        position: relative;
+        float: left;
+        z-index: 80;
+        margin-left: 1px;
+    }
+    
+    .sear01sel,
+    .sear03sel {
+        width: 39px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #646464;
+        padding-left: 6px;
+    }
+    
+    #sear01sellist,
+    #sear03sellist {
+        position: absolute;
+        border: 1px solid #DFDFDF;
+        top: 19px;
+        left: -1px;
+        width: 45px;
+        background: #fff;
+        z-index: 99;
+        padding: 2px 0 0;
+        height: 130px;
+    }
+    
+    #sear01sellist li,
+    #sear03sellist li {
+        padding: 0;
+        float: none;
+    }
+    
+    #sear01sellist li a,
+    #sear03sellist li a {
+        color: #000000;
+        padding-left: 13px;
+        width: 32px;
+        display: block;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -695px -100px;
+        padding: 7px 5px 4px;
+        cursor: pointer;
+    }
+    
+    #sear01sellist li a:hover,
+    #sear03sellist li a:hover {
+        color: #f54343;
+    }
+    
+    #rb1 a,
+    #rc1 a {
+        background: none!important;
+    }
+    
+    .sear01btn,
+    .sear03btn {
+        width: 30px;
+        height: 20px;
+        line-height: 20px;
+        cursor: pointer;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -300px -1900px;
+        font-size: 12px;
+        border: none;
+        margin-left: 2px;
+    }
+    
+    .sear01sel_hover,
+    .sear03sel_hover {
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) no-repeat -368px 7px;
+    }
+    
+    .sear02 {
+        width: 218px;
+        height: 20px;
+        padding: 0 0 15px 2px;
+        position: relative;
+        z-index: 80;
+        margin-right: 0;
+        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/sprite.png) no-repeat -400px -1900px;
+        *_padding-bottom: 6px;
+    }
+    
+    .sear02 span {
+        float: left;
+        cursor: pointer;
+    }
+    
+    .sear02 .text {
+        width: 192px;
+        height: 16px;
+        *height: 16px;
+        _height: 16px;
+        line-height: 16px;
+        *line-height: 16px;
+        _line-height: 16px;
+        padding: 0 0 0 4px;
+        margin-top: 2px;
+        background: #fff;
+        border: none;
+        color: #999;
+        font-size: 12px
+    }
+    
+    .sear02btn {
+        width: 22px;
+        height: 20px;
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+    
+    .sear04 {
+        padding: 0px 0px 22px 2px;
+    }
+    /*0818a patch*/
+    
+    .ColARTxt ul li {
+        background: none;
+        padding: 0;
+    }
+    .ColALAvtPBg1 {        background: #333;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        width: 187px;
+        height: 22px;
+        position: absolute;
+        top: 143px;
+        left: 0;
+}
+.ColALAvtTitBg1 {        background: #225bb4;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        width: 55px;
+        height: 22px;
+        position: absolute;
+        top: 120px;
+        left: 0;
+}
+.ColARPic1 {        position: relative;
+        width: 120px;
+        height: 118px;
+        margin-top: 7px;
+        _margin-top: 6px;
+        margin-right: 14px;
+        _margin-right: 10px;
+        overflow: hidden;
+}
+.ColARPicTxt1 {        width: 110px;
+        height: 22px;
+        line-height: 22px;
+        _line-height: 24px;
+        text-align: center;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        padding: 0 5px;
+        overflow: hidden;
+}
+.ColARPicTxtBg1 {        width: 120px;
+        height: 22px;
+        background: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        position: absolute;
+        top: 96px;
+        left: 0;
+}
+.ColCMPicTxt1 {        width: 160px;
+        height: 22px;
+        line-height: 22px;
+        _line-height: 24px;
+        text-align: center;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        padding: 0 5px;
+        overflow: hidden;
+}
+.ColCMPicTxtBg1 {        width: 170px;
+        height: 22px;
+        background: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        position: absolute;
+        top: 96px;
+        left: 0;
+}
+.ColDLAvt1 {        height: 510px;
+        padding-top: 28px;
+        _padding-top: 28px;
+        *padding-top: 28px;
+        overflow: hidden;
+}
+.ColELAvt1 {        width: 220px;
+        height: 350px;
+        margin-top: 6px;
+        _margin-top: 8px;
+        padding-top: 3px;
+        overflow: hidden;
+}
+.ColFLAvt1 {        width: 220px;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 11px;
+        _margin-top: 13px;
+}
+.ColGLAvt1 {        width: 220px;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 13px;
+        _margin-top: 15px;
+}
+.ColGLCon021 {        margin-top: 14px;
+        _margin-top: 15px;
+}
+.FNewLCon1 {        border-top: 1px solid #dedede;
+        padding-bottom: 13px;
+}
+.FVCPicBtn1 {        background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/spritesize47_w1000_h2000.png) 0 -900px;
+        _background: url(http://p1.ifengimg.com/ifeng/ifeng-index/20160122/sprite.gif) 0 -900px;
+        position: absolute;
+        top: 44px;
+        left: 95px;
+        width: 20px;
+        height: 21px;
+}
+.fhjrTit1 {        font-family: Microsoft YaHei;
+
+        font-size: 12px;
+        color: #999;
+        line-height: 34px;
+        margin-top: 7px;
+        _margin-top: 9px;
+        *margin-top: 9px;
+}
+.zhcy1 {        position: absolute;
+        right: 0;
+        top: 30px;
+        _right: 30px;
+        _top: 20px;
+}
+
+
+.wrap { display:none; width:100%; padding-bottom:10px; position:absolute; top:0; left:0; z-index:0; background-color:#FFFFFF; }
+.ColA, #first1 { display:block !important; }
+
+#extra_box { border:1px #CECECE solid; padding:10px 15px; margin-bottom:10px; background-color:#FFFFFF; }
+#extra_more { width:100%; height:435px; position:relative; overflow:hidden; }
+
+a#n_prev, a#n_next { position:absolute; z-index:97; left:100%; margin-left:-70px; font-size:25px; font-weight:bold; text-decoration:none; width:60px; height:60px; line-height:60px; overflow:hidden; text-align:center; font-family:"宋体"; color:#FFFFFF; overflow:hidden; background-color:#D8BE99; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity:0.7; opacity:0.7; display:none; }
+a#n_prev { top:120px; }
+a#n_next { top:190px; }
+a#n_prev:hover, a#n_next:hover { background-color:#D8A899;}
+
+#block_title { height:28px; padding-bottom:10px; text-align:justify; text-align-last:justify; }
+#block_title:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
+#block_title span { padding-left:6px; padding-right:6px; color:#999999; display:inline-block; *display:inline; *zoom:1; }
+#block_title span a { color:#999999; }
+#block_title span#block_title_is { height:28px; line-height:28px; background-color:#999999; }
+#block_title span#block_title_is a { color:#FFFFFF; }

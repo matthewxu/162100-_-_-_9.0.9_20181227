@@ -1,0 +1,78 @@
+
+
+<div id="localcity" class="gmodule g-box" data-cate="localcity"> 
+	<textarea> 
+		<div class="localcity-hd">
+            <h2 class="title"><img src="https://p0.ssl.qhimg.com/t015479552bd7faf8fd.png" width="100"></h2>
+            <ul class="direct-site">
+              <li><a href="http://shenghuo.hao.360.cn/#cid=32 ">情感生活</a></li>
+              <li><a href="http://vr.hao.360.cn/">发现VR</a></li>
+              <li><a href="http://www.shuidixy.com/?from=360&pos=shbk">查企业</a></li>
+            <li><a href="http://yule.360.cn/">热门八卦</a></li>
+             <!-- <li><a href="http://yule.360.cn/list?tonality=五花扒门">五花扒门</a></li>-->
+              <li><a href="http://chongzhi.360.cn/mobile/cz?a=7088">手机充值</a></li>
+              <li><a href="http://hao.360.cn/fangchanjiaju.html">房产家居</a></li>
+              <li><a href="http://shenghuo.hao.360.cn/#cid=15">健康生活</a></li>
+              <li><a href="http://baike.so.com/index.html?src=nv5">热搜百科</a></li>
+            </ul>
+		</div>
+		<div class="localcity-bd gclearfix">
+			<div data-tab-cate="localcity-tab1" class="inner" id="localcity-tab1">
+				<script type="text/template" id="localcity-tab1-template">
+					<div class="localcity-info">
+						<div class="widget-slide-inner" data-jss="animType:'scroll',viewSelector:'.slide-column-content .slide-column-inner',pageUpSelector:'.slide-column-pageup',pageDownSelector:'.slide-column-pagedown',mouseenterSwitchTime:null,animDur:300" data-cate="relax-inner">
+							<div class="slide-content slide-column-content">
+								<div class="slide-column-wrap">
+									{js var localcity_index = 0}
+									{for (index in $slide_data)}
+									<div class="slide-column-inner {if(localcity_index == 0)}selected{/if}">
+										{js localcity_index++}
+										<div class="pic-outer gclearfix">
+										{for (var n = 0, m = $slide_data[index].pic_list.length; n < m; n++)}
+											{js var picItem = $slide_data[index].pic_list[n]}
+											{if (n < 5)}
+											<div class="g-pic {if(n == 4)}item-patch{/if}">
+												<a href="{picItem.pic_link}" data-tab="{localcity_index}">
+													<img src="{picItem.pic}" /> 
+													<em class="txt">{picItem.text}</em>
+													<span class="txt-bg"></span>
+													<span class="mask"></span>
+												</a>
+											</div>
+											{/if}
+										{/for}
+										</div>
+										<div class="txt-outer gclearfix">
+											<ul class="g-list">
+											{for (var n = 0, m = $slide_data[index].wenzi_list.length; n < m; n++)}
+												{if (n < 25)}
+												{js var txtItem = $slide_data[index].wenzi_list[n]}
+												<li {if ((n+1)%5 == 0)}class="item-patch"{/if}>
+													<ins class="dot"></ins><a href="{txtItem.link}">{txtItem.text}</a>
+												</li>
+												{/if}
+											{/for}
+											</ul>
+										</div>
+									</div>
+									{/for}			
+								</div>
+							</div>
+							<div class="slide-nav">
+					            <ul>
+					                <li class="selected"><a href="###">标签信息</a></li>
+					                <li><a href="###">标签信息</a></li>
+					                <li><a href="###">标签信息</a></li>
+					            </ul>
+					        </div>
+							<a href="###" class="slide-column-pageup" style="display: inline;">上一屏</a>
+							<a href="###" class="slide-column-pagedown" style="display: inline;">下一屏</a>
+						</div>
+					</div>
+				</script>
+			</div>
+		</div>	
+		<div id="localcity-loading" style="width:980px;height:320px;display:none;position:relative"><img style="position:absolute;left:480px;top:144px;" src="https://p1.ssl.qhimg.com/t019436f9a61e4203fe.gif"></div>
+	</textarea>	
+</div>
+
